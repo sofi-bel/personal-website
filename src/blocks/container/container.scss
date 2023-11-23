@@ -1,0 +1,11 @@
+@use "sass:map";
+@import "../../styles/variables";
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: map.get($container-max-widths, lg);
+  margin: 0 auto;
+  padding: 0 0.938rem;
+}

@@ -2,8 +2,9 @@
   font-weight: 400;
   font-style: normal;
   font-family: "DM Sans";
-  src: url("../vendor/fonts/dmsans-regular.woff2") format("woff2"),
-  url("../vendor/fonts/dmsans-regular.woff") format("woff");
+  src:
+    url("../vendor/fonts/dmsans-regular.woff2") format("woff2"),
+    url("../vendor/fonts/dmsans-regular.woff") format("woff");
   font-display: swap;
 }
 
@@ -11,8 +12,9 @@
   font-weight: 500;
   font-style: normal;
   font-family: "DM Sans";
-  src: url("../vendor/fonts/dmsans-medium.woff2") format("woff2"),
-  url("../vendor/fonts/dmsans-medium.woff") format("woff");
+  src:
+    url("../vendor/fonts/dmsans-medium.woff2") format("woff2"),
+    url("../vendor/fonts/dmsans-medium.woff") format("woff");
   font-display: swap;
 }
 
@@ -20,8 +22,9 @@
   font-weight: 700;
   font-style: normal;
   font-family: "DM Sans";
-  src: url("../vendor/fonts/dmsans-bold.woff2") format("woff2"),
-  url("../vendor/fonts/dmsans-bold.woff") format("woff");
+  src:
+    url("../vendor/fonts/dmsans-bold.woff2") format("woff2"),
+    url("../vendor/fonts/dmsans-bold.woff") format("woff");
   font-display: swap;
 }
 
@@ -29,8 +32,9 @@
   font-weight: 400;
   font-style: normal;
   font-family: "Poppins";
-  src: url("../vendor/fonts/poppins-regular.woff2") format("woff2"),
-  url("../vendor/fonts/poppins-regular.woff") format("woff");
+  src:
+    url("../vendor/fonts/poppins-regular.woff2") format("woff2"),
+    url("../vendor/fonts/poppins-regular.woff") format("woff");
   font-display: swap;
 }
 
@@ -38,8 +42,9 @@
   font-weight: 500;
   font-style: normal;
   font-family: "Poppins";
-  src: url("../vendor/fonts/poppins-medium.woff2") format("woff2"),
-  url("../vendor/fonts/poppins-medium.woff") format("woff");
+  src:
+    url("../vendor/fonts/poppins-medium.woff2") format("woff2"),
+    url("../vendor/fonts/poppins-medium.woff") format("woff");
   font-display: swap;
 }
 
@@ -47,7 +52,8 @@
   font-weight: 700;
   font-style: normal;
   font-family: "Poppins";
-  src: url("../vendor/fonts/poppins-bold.woff2") format("woff2"),
-  url("../vendor/fonts/poppins-bold.woff") format("woff");
+  src:
+    url("../vendor/fonts/poppins-bold.woff2") format("woff2"),
+    url("../vendor/fonts/poppins-bold.woff") format("woff");
   font-display: swap;
 }

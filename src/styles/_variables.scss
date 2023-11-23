@@ -1,6 +1,10 @@
 $font-stack: "DM Sans", arial, sans-serif;
 $font-weight: (
-        "normal": 400,
-        "medium": 500,
-        "bold": 700,
+  "normal": 400,
+  "medium": 500,
+  "bold": 700,
+);
+$container-max-widths: (
+  md: 80rem,
+  lg: 100rem,
 );

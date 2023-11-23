@@ -1,0 +1,47 @@
+@use "sass:map";
+@import "../../styles/variables";
+
+.nav {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid #26292d;
+  background-color: #171718;
+  color: #fff;
+
+  &-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1.875rem;
+    row-gap: 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2.5rem;
+    font-family: "Poppins", arial, sans-serif;
+    font-size: 1rem;
+    font-weight: map.get($font-weight, "medium");
+
+    &__link {
+      color: #fff;
+
+      &--active {
+        position: relative;
+
+        &:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 100%;
+          display: block;
+          height: 2px;
+          width: 100%;
+          background-color: #5c62ec;
+        }
+      }
+    }
+  }
+}
