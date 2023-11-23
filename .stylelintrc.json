@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "stylelint-config-recommended"
+  ],
+  "rules": {
+    "unit-allowed-list": ["%", "deg", "rem", "ms", "fr", "vh"]
+  },
+  "ignoreFiles": [
+    "dist/*"
+  ]
+}

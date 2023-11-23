@@ -6,11 +6,19 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prettier": "npx prettier src/ --write",
+    "lint": "npx eslint src/ --ext .js,.jsx,.ts,.tsx",
+    "stylelint": "npx stylelint **/*.scss --fix"
   },
   "devDependencies": {
     "@types/node": "^20.9.4",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "3.1.0",
     "sass": "^1.69.5",
+    "stylelint": "^15.11.0",
+    "stylelint-config-recommended": "^13.0.0",
     "vite": "^5.0.0"
   }
 }
