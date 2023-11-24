@@ -7,4 +7,6 @@
   min-height: 100vh;
   font-family: $font-stack;
   font-weight: map.get($font-weight, "normal");
+  letter-spacing: -0.031rem;
+  color: var(--text-color);
 }

@@ -1,0 +1,10 @@
+@use "sass:map";
+@import "../../styles/variables";
+
+.text {
+  color: inherit;
+
+  &--accent {
+    color: var(--accent);
+  }
+}

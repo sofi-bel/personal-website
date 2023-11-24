@@ -3,7 +3,7 @@
     "stylelint-config-recommended"
   ],
   "rules": {
-    "unit-allowed-list": ["%", "deg", "rem", "ms", "fr", "vh"]
+    "unit-allowed-list": ["%", "deg", "rem", "ms", "fr", "vh", "s"]
   },
   "ignoreFiles": [
     "dist/*"

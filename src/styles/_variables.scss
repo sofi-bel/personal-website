@@ -12,12 +12,14 @@ $container-max-widths: (
 :root {
   --blackpure: #000;
   --black: #171718;
-  --black-border: #26292D;
+  --black-border: #26292d;
   --white: #fff;
-  --purple: #5C62EC;
+  --purple: #5c62ec;
   --text-color: var(--black);
   --dark-bg: var(--black);
+  --light-bg: var(--white);
   --dark-border: var(--black-border);
   --header-text: var(--white);
+  --light-text: var(--white);
   --accent: var(--purple);
 }
