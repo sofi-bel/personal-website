@@ -3,9 +3,9 @@
 
 .nav {
   padding: 1.25rem 0;
-  border-bottom: 1px solid #26292d;
-  background-color: #171718;
-  color: #fff;
+  border-bottom: 1px solid var(-dark-border);
+  background-color: var(--dark-bg);
+  color: var(--header-text);
 
   &-row {
     display: flex;
@@ -26,7 +26,7 @@
     font-weight: map.get($font-weight, "medium");
 
     &__link {
-      color: #fff;
+      color: var(--header-text);
 
       &--active {
         position: relative;
@@ -39,7 +39,7 @@
           display: block;
           height: 2px;
           width: 100%;
-          background-color: #5c62ec;
+          background-color: var(--accent);
         }
       }
     }
