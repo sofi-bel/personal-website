@@ -22,4 +22,7 @@ $container-max-widths: (
   --header-text: var(--white);
   --light-text: var(--white);
   --accent: var(--purple);
+  --project-card-bg: var(--white);
+  --project-card-text: var(--black);
+  --box-shadow: 0 0 0.938rem rgba(0, 0, 0, 0.12);
 }
