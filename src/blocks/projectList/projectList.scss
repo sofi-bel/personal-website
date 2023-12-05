@@ -33,4 +33,27 @@
       color: var(--project-card-text);
     }
   }
+
+  &-details {
+    margin: 0 auto;
+    max-width: 54.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    &__cover {
+      max-width: 100%;
+      margin-bottom: 2.5rem;
+      box-shadow: var(--box-shadow);
+      border-radius: 0.625rem;
+    }
+
+    &__desc {
+      margin-bottom: 1.875rem;
+      font-weight: map.get($font-weight, "bold");
+      font-size: 1.5rem;
+      line-height: 1.3;
+    }
+  }
 }
