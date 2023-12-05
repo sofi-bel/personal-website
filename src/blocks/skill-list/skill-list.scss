@@ -1,0 +1,19 @@
+@use "sass:map";
+@import "../../styles/variables";
+
+.skill-list {
+  margin: 0 auto;
+  max-width: 35.625rem;
+  display: flex;
+  align-items: center;
+  row-gap: 2.5rem;
+  column-gap: 1rem;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &__item {
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+}
