@@ -3,4 +3,11 @@
 
 .title {
   color: inherit;
+
+  &_size_lg {
+    margin-bottom: 1.25rem;
+    font-size: 2.5rem;
+    font-weight: map.get($font-weight, "bold");
+    line-height: 1.3;
+  }
 }
