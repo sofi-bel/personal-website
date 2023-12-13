@@ -11,63 +11,67 @@
     <link rel="stylesheet" href="./styles/index.scss" />
   </head>
   <body class="page">
-    <nav class="nav">
+    <header class="header">
       <div class="container">
-        <div class="nav-row">
-          <a href="./index.html" class="logo link"
-            ><strong>Sofi Bel</strong> portfolio</a
-          >
-          <ul class="nav-list">
-            <li class="nav-list__item">
-              <a
-                class="nav-list__link link nav-list__link--active"
-                href="#about-me"
+        <nav class="navbar">
+          <div class="navbar__row">
+            <a href="./index.html" class="navbar__brand"
+              ><strong>Sofi Bel</strong> portfolio</a
+            >
+            <div class="navbar__toggler">
+              <div class="navbar__toggler-icon">
+                <div class="navbar__toggler-icon--line--top"></div>
+                <div class="navbar__toggler-icon--line--bottom"></div>
+              </div>
+            </div>
+          </div>
+          <ul class="navbar__nav nav">
+            <li class="nav__item">
+              <a class="nav__link link nav__link--active" href="#about-me"
                 >About me</a
               >
             </li>
-            <li class="nav-list__item">
-              <a class="nav-list__link link" href="/skills.html">Skills</a>
+            <li class="nav__item">
+              <a class="nav__link link" href="/skills.html">Skills</a>
             </li>
-            <li class="nav-list__item">
-              <a class="nav-list__link link" href="#experience">Experience</a>
+            <li class="nav__item">
+              <a class="nav__link link" href="#experience">Experience</a>
             </li>
-            <li class="nav-list__item">
-              <a class="nav-list__link link" href="#education">Education</a>
+            <li class="nav__item">
+              <a class="nav__link link" href="#education">Education</a>
             </li>
-            <li class="nav-list__item">
-              <a class="nav-list__link link" href="#projects">Projects</a>
+            <li class="nav__item">
+              <a class="nav__link link" href="#projects">Projects</a>
             </li>
-            <li class="nav-list__item">
-              <a class="nav-list__link link" href="#certifications"
+            <li class="nav__item">
+              <a class="nav__link link" href="#certifications"
                 >Certifications</a
               >
             </li>
-            <li class="nav-list__item">
-              <a class="nav-list__link link" href="#references">References</a>
+            <li class="nav__item">
+              <a class="nav__link link" href="#references">References</a>
             </li>
-            <li class="nav-list__item">
-              <a class="nav-list__link link" href="/contacts.html"
-                >Contact me</a
-              >
+            <li class="nav__item">
+              <a class="nav__link link" href="/contacts.html">Contact me</a>
             </li>
           </ul>
-        </div>
-      </div>
-    </nav>
-    <header class="header">
-      <div class="header__wrapper">
-        <h1 class="header__title title header__title--accent">
-          Hi, my name is Sofi Bel.<br />
-          <strong
-            class="header__title header__title--accent header__title--typing"
-            >I'm a Front End Developer</strong
-          >
-        </h1>
-        <!--TODO CV pdf-->
-        <button class="header__button button">Download CV</button>
+        </nav>
       </div>
     </header>
     <main class="content">
+      <header class="hero-header">
+        <div class="hero-header__wrapper">
+          <h1 class="hero-header__title title">
+            Hi, my name is Sofi Bel.<br />
+            <strong
+              class="hero-header__title hero-header__title--accent hero-header__title--typing"
+              >I'm a Front End Developer</strong
+            >
+          </h1>
+          <!--TODO CV pdf-->
+          <button class="hero-header__button button">Download CV</button>
+        </div>
+      </header>
       <!--TODO About me section-->
       <!--      <section class="about-me section" id="about-me">-->
       <!--        <div class="container">-->
@@ -315,5 +319,6 @@
         </div>
       </div>
     </footer>
+    <script type="module" src="index.js"></script>
   </body>
 </html>

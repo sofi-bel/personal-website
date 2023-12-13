@@ -1,0 +1,40 @@
+@use "sass:map";
+@import "../../styles/variables";
+
+.hero-header {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 43.438rem;
+  padding: 2.5rem 0;
+  background-color: var(--dark-bg);
+  background-image: url("./../../public/img/header-bg.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center center;
+  color: var(--header-text);
+  text-align: center;
+
+  &__wrapper {
+    max-width: 42.5rem;
+    padding: 0 0.938rem;
+  }
+
+  &__title {
+    font-size: 3.75rem;
+    font-weight: map.get($font-weight, "bold");
+    line-height: 1.4;
+    margin-bottom: 1.25rem;
+    color: var(--light-text);
+
+    &--accent {
+      font-size: 3.75rem;
+      color: var(--accent);
+    }
+
+    &--typing {
+      //TODO animation
+    }
+  }
+}
