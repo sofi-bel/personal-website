@@ -8,6 +8,16 @@ $container-max-widths: (
   md: 80rem,
   lg: 100rem,
 );
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1280px,
+  xxl: 1400px,
+);
+$cubic: cubic-bezier(0.4, 0.01, 0.165, 0.99);
+$menuItems: 8;
 
 :root {
   --blackpure: #000;
