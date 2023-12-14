@@ -2,9 +2,16 @@
 @import "../../styles/variables";
 
 .link {
+  color: var(--accent);
   transition: opacity 0.2s ease-in;
 
   &:hover {
     opacity: 0.8;
+  }
+
+  &_theme {
+    &_light {
+      color: var(--light-text);
+    }
   }
 }
