@@ -5,6 +5,9 @@
   position: absolute;
   top: 0;
   left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 0 0.938rem;
   height: 3.125rem;
   width: 100%;
@@ -21,18 +24,27 @@
     padding: 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 0.75rem;
   }
 
-  &__row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  @media (min-width: map.get($grid-breakpoints, xl)) {
+    gap: 2.5rem;
   }
 
   &__brand {
-    font-size: 1.5rem;
+    flex: 1 0 auto;
+    font-size: 1.25rem;
     font-family: "Poppins", arial, sans-serif;
     color: var(--header-text);
+
+    @media (min-width: map.get($grid-breakpoints, lg)) {
+      font-size: 1rem;
+    }
+
+    @media (min-width: map.get($grid-breakpoints, xl)) {
+      font-size: 1.5rem;
+    }
   }
 
   &__toggler {
@@ -79,11 +91,12 @@
     }
   }
 
-  &.nav-opened {
+  &.nav-is-visible {
     display: flex;
-    flex-direction: column;
-    row-gap: 1.875rem;
-    height: 100vh;
+    flex-direction: row;
+    row-gap: 1.25rem;
+    flex-wrap: wrap;
+    height: fit-content;
     background-color: var(--dark-bg);
     transition:
       height 0.3s ease-in,
