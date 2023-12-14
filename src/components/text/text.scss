@@ -2,7 +2,17 @@
 @import "../../styles/variables";
 
 .text {
-  &--accent {
+  &_size {
+    &_md {
+      font-size: 1rem;
+
+      @media (min-width: map.get($grid-breakpoints, lg)) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  &_accent {
     color: var(--accent);
   }
 }
