@@ -1,0 +1,42 @@
+@use "sass:map";
+@import "../../styles/variables";
+
+.dark-mode-btn {
+  order: 0;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 3.188rem;
+  height: 1.625rem;
+  padding: 0.313rem;
+  border-radius: 3.125rem;
+  background-color: var(--dark-grey);
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0.063rem;
+    left: 0.063rem;
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: var(--white);
+    transition: left 0.2s ease-in;
+  }
+
+  &_active {
+    &::before {
+      left: 1.625rem;
+    }
+  }
+
+  &__icon {
+    position: relative;
+    z-index: 9;
+  }
+
+  @media (min-width: map.get($grid-breakpoints, lg)) {
+    order: 1;
+  }
+}
