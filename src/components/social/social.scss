@@ -1,7 +1,18 @@
+@use "sass:map";
 @import "../../styles/variables";
 
 .social {
   display: flex;
   column-gap: 1.875rem;
   align-items: center;
+
+  &__item {
+    width: 1.75rem;
+    height: 1.75rem;
+
+    @media (min-width: map.get($grid-breakpoints, lg)) {
+      width: 2.375rem;
+      height: 2.375rem;
+    }
+  }
 }

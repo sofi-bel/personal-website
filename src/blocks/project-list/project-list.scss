@@ -26,9 +26,6 @@
       padding: 0.938rem;
       background-color: var(--project-card-bg);
       box-shadow: var(--box-shadow);
-      font-weight: map.get($font-weight, "bold");
-      font-size: 1.5rem;
-      line-height: 1.3;
       text-align: center;
       color: var(--project-card-text);
     }
@@ -50,10 +47,15 @@
     }
 
     &__desc {
-      margin-bottom: 1.875rem;
-      font-weight: map.get($font-weight, "bold");
-      font-size: 1.5rem;
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      font-weight: map.get($font-weight, "medium");
       line-height: 1.3;
+
+      @media (min-width: map.get($grid-breakpoints, lg)) {
+        margin-bottom: 1.875rem;
+        font-size: 1.5rem;
+      }
     }
   }
 }

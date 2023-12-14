@@ -2,13 +2,19 @@
 @import "../../styles/variables";
 
 .section {
-  padding: 4.375rem 0;
+  padding: 2.5rem 0;
+
+  @media (min-width: map.get($grid-breakpoints, lg)) {
+    padding: 4.375rem 0;
+  }
 
   &__title {
-    margin-bottom: 3.75rem;
-    font-size: 3.75rem;
-    font-weight: map.get($font-weight, "bold");
-    line-height: 1.3;
+    margin-bottom: 1.875rem;
     text-align: center;
+    color: var(--accent);
+
+    @media (min-width: map.get($grid-breakpoints, lg)) {
+      margin-bottom: 3.75rem;
+    }
   }
 }

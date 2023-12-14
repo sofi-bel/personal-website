@@ -13,7 +13,11 @@
   justify-content: center;
 
   &__item {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     line-height: 1.5;
+
+    @media (min-width: map.get($grid-breakpoints, lg)) {
+      font-size: 1.5rem;
+    }
   }
 }

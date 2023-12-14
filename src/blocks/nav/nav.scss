@@ -10,7 +10,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    column-gap: 1.25rem;
+    column-gap: 1rem;
     font-family: "Poppins", arial, sans-serif;
     font-size: 1rem;
     font-weight: map.get($font-weight, "medium");
@@ -51,6 +51,11 @@
     display: block;
     color: var(--header-text);
     line-height: 2.35;
+    transition: opacity 0.2s ease-in;
+
+    &:hover {
+      opacity: 0.8;
+    }
 
     &--active {
       position: relative;

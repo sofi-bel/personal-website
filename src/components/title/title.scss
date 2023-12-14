@@ -2,10 +2,38 @@
 @import "../../styles/variables";
 
 .title {
-  &_size_lg {
-    margin-bottom: 1.25rem;
+  &_size_xxl {
     font-size: 2.5rem;
     font-weight: map.get($font-weight, "bold");
+    line-height: 1.4;
+
+    @media (min-width: map.get($grid-breakpoints, lg)) {
+      font-size: 3.75rem;
+    }
+  }
+
+  &_size_xl {
+    font-size: 1.875rem;
+    font-weight: map.get($font-weight, "bold");
     line-height: 1.3;
+    text-align: center;
+
+    @media (min-width: map.get($grid-breakpoints, lg)) {
+      font-size: 3.75rem;
+    }
+  }
+
+  &_size_lg {
+    font-size: 1.5rem;
+    font-weight: map.get($font-weight, "bold");
+    line-height: 1.3;
+  }
+
+  &_accent {
+    color: var(--accent);
+  }
+
+  &_typing {
+    //TODO add animation
   }
 }

@@ -8,5 +8,6 @@
   font-family: $font-stack;
   font-weight: map.get($font-weight, "normal");
   letter-spacing: -0.031rem;
+  background-color: var(--page-bg);
   color: var(--text-color);
 }
