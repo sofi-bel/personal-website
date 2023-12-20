@@ -1,5 +1,5 @@
 @use "sass:map";
-@import "../../styles/variables";
+@import "../../assets/styles/variables";
 
 .hero-header {
   display: flex;
@@ -8,7 +8,8 @@
   min-height: 43.438rem;
   padding: 2.5rem 0;
   background-color: var(--dark-bg);
-  background-image: url("./../../public/img/header-bg.svg");
+  background-image: url("../../assets/images/header-bg.svg");
+  //background-image: url("./../../public/images/header-bg.svg");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center center;
