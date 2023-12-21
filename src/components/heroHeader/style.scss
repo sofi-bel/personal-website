@@ -9,7 +9,6 @@
   padding: 2.5rem 0;
   background-color: var(--dark-bg);
   background-image: url("../../assets/images/header-bg.svg");
-  //background-image: url("./../../public/images/header-bg.svg");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center center;
@@ -17,9 +16,12 @@
   text-align: center;
 
   &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 18rem;
     padding: 0 0.938rem;
-    text-align: center;
 
     @media (min-width: map.get($grid-breakpoints, lg)) {
       max-width: 42.5rem;
