@@ -37,7 +37,7 @@ const navs = [
   {
     id: 8,
     path: '/contacts',
-    text: 'contact me',
+    text: 'Contact me',
   },
 ];
 
