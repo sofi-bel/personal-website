@@ -15,7 +15,7 @@ const ProjectPage = () => {
           <h1 className="project-list__title section__title title title_size_xl title_accent">{project.title}</h1>
 
           <img
-            src={project.img}
+            src={project.imgBig}
             alt={project.title}
             className="project-details__cover"
           />
