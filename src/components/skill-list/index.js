@@ -1,1 +1,0 @@
-import "./skill-list.scss";

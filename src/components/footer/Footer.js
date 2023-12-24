@@ -1,7 +1,6 @@
 import React from "react";
-import gitHubIcon from "../../assets/images/icons/gitHubIcon.svg";
-import linkedInIcon from "../../assets/images/icons/linkedInIcon.svg";
-import "./style.scss";
+import { socialMedia } from "../../helpers/socialList";
+import Social from "../social/Social";
 
 const Footer = () => {
   return (
@@ -9,24 +8,16 @@ const Footer = () => {
       <div className="container">
         <div className="footer__wrapper">
           <ul className="social">
-            <li className="social__item">
-              <a
-                href="https://github.com/sofi-bel"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={gitHubIcon} alt="GitHub icon" />
-              </a>
-            </li>
-            <li className="social__item">
-              <a
-                href="https://www.linkedin.com/in/sofi-bel/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={linkedInIcon} alt="LinkedIn icon" />
-              </a>
-            </li>
+            {socialMedia.map((social) => {
+              return (
+                <Social
+                  key={social.id}
+                  link={social.link}
+                  img={social.img}
+                  imgAlt={social.imgAlt}
+                />
+              );
+            })}
           </ul>
           <div className="footer__copyright">
             <p>© 2023 Sofi Bel</p>

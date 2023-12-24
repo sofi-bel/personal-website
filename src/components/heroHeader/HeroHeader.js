@@ -1,5 +1,3 @@
-import "./style.scss";
-
 import React from "react";
 import Btn from "../btn/Btn";
 

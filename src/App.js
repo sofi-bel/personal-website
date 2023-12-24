@@ -1,14 +1,11 @@
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header";
 import HomePage from "./pages/HomePage";
 import Footer from "./components/footer/Footer";
 import ProjectsPage from "./pages/ProjectsPage";
 import ProjectPage from "./pages/ProjectPage";
 import ContactsPage from "./pages/ContactsPage";
-
 import ScrollToTop from "./utils/scrollToTop";
-
 import "./assets/styles/index.scss";
 
 function App() {

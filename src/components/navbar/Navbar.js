@@ -1,12 +1,10 @@
 import React from "react";
-import {NavLink} from "react-router-dom";
 import BtnDarkMode from "../btnDarkMode/BtnDarkMode";
-import "./style.scss";
+import Nav from "../nav/Nav";
+import {NavLink} from "react-router-dom";
+import { navs } from "../../helpers/navList";
 
 const Navbar = () => {
-  const activeLink = 'nav__link link link_theme_light nav__link--active';
-  const normalLink = 'nav__link link link_theme_light';
-
   return (
     <nav className="navbar">
       <NavLink to="/" className="navbar__brand">
@@ -20,92 +18,15 @@ const Navbar = () => {
         </div>
       </div>
       <ul className="navbar__nav nav">
-        <li className="nav__item">
-          <NavLink
-            to="/about-me"
-            className={({ isActive }) =>
-              isActive ? activeLink : normalLink
-            }
-          >
-            About me
-          </NavLink>
-        </li>
-        <li className="nav__item">
-          <li className="nav__item">
-            <NavLink
-              to="/skills"
-              className={({ isActive }) =>
-                isActive ? activeLink : normalLink
-              }
-            >
-              Skills
-            </NavLink>
-          </li>
-        </li>
-        <li className="nav__item">
-          <li className="nav__item">
-            <li className="nav__item">
-              <NavLink
-                to="/experience"
-                className={({ isActive }) =>
-                  isActive ? activeLink : normalLink
-                }
-              >
-                Experience
-              </NavLink>
-            </li>
-          </li>
-        </li>
-        <li className="nav__item">
-          <NavLink
-            to="/education"
-            className={({ isActive }) =>
-              isActive ? activeLink : normalLink
-            }
-          >
-            Education
-          </NavLink>
-        </li>
-        <li className="nav__item">
-          <NavLink
-            to="/projects"
-            className={({ isActive }) =>
-              isActive ? activeLink : normalLink
-            }
-          >
-            Projects
-          </NavLink>
-        </li>
-        <li className="nav__item">
-          <NavLink
-            to="/certifications"
-            className={({ isActive }) =>
-              isActive ? activeLink : normalLink
-            }
-          >
-            Certifications
-          </NavLink>
-        </li>
-        <li className="nav__item">
-          <NavLink
-            to="/references"
-            className={({ isActive }) =>
-              isActive ? activeLink : normalLink
-            }
-          >
-            References
-          </NavLink>
-        </li>
-        <li className="nav__item">
-          <NavLink
-            to="/contacts"
-            className={({ isActive }) =>
-              isActive ? activeLink : normalLink
-            }
-          >
-            Contact me
-          </NavLink>
-        </li>
+        {navs.map((nav) => {
+          return (
+            <Nav
+              key={nav.id}
+              path={nav.path}
+              text={nav.text}
+            />
+          );
+        })}
       </ul>
     </nav>
   );

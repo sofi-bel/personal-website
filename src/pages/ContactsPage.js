@@ -1,4 +1,6 @@
 import React from "react";
+import Contact from "../components/contact/Contact";
+import { contacts } from "../helpers/contactsList";
 
 const ContactsPage = () => {
   return (
@@ -9,30 +11,17 @@ const ContactsPage = () => {
             Contact me
           </h2>
           <ul className="contact-list">
-            <li className="contact-list__item">
-              <h3 className="title title_size_lg">Location</h3>
-              <p className="text text_size_md">Saint Petersburg, Russia</p>
-            </li>
-            <li className="contact-list__item">
-              <h3 className="title title_size_lg">Phone</h3>
-              <p className="text text_size_md">
-                <a className="link" href="tel:+79138740336">+7 (913) 874-03-36</a>
-              </p>
-            </li>
-            <li className="contact-list__item">
-              <h3 className="title title_size_lg">Email</h3>
-              <p className="text text_size_md">
-                <a className="link" href="mailto:sofi.bel.job@icloud.com "
-                >sofi.bel.job@icloud.com
-                </a>
-              </p>
-            </li>
-            <li className="contact-list__item">
-              <h3 className="title title_size_lg">Telegram</h3>
-              <p className="text text_size_md">
-                <a className="link" href="https://t.me/sofi_13_bel">sofi_13_bel</a>
-              </p>
-            </li>
+            {contacts.map((contact) => {
+              return (
+                <Contact
+                  key={contact.id}
+                  title={contact.title}
+                  text={contact.text}
+                  link={contact.link}
+                  linkText={contact.linkText}
+                />
+              );
+            })}
           </ul>
         </div>
       </section>
