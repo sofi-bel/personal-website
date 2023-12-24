@@ -1,13 +1,25 @@
 import React from "react";
+import { NavLink } from 'react-router-dom';
 import HeroHeader from "../components/heroHeader/HeroHeader";
 import Skill from "../components/skill/Skill";
+import Project from "../components/project/Project";
+import Btn from "../components/btn/Btn";
+import Certificate from "../components/certificate/Certificate";
 import { skills } from "../helpers/skillsList";
+import { projects } from "../helpers/projectsList";
+import { certificates } from "../helpers/certificatesList";
 
 const HomePage = () => {
   return (
     <main className="content">
       <HeroHeader />
-      <section className="skills section" id="skills">
+      <section className="about-me section">
+        <div className="container">
+          <h2 className="section__title title title_size_xl">About Me</h2>
+          <p className="text">content will be here soon</p>
+        </div>
+      </section>
+      <section className="skills section">
         <div className="container">
           <h2 className="section__title title title_size_xl title_accent">
             Skills
@@ -22,6 +34,69 @@ const HomePage = () => {
               );
             })}
           </ul>
+        </div>
+      </section>
+      <section className="experience section">
+        <div className="container">
+          <h2 className="section__title title title_size_xl">Experience</h2>
+          <p className="text">content will be here soon</p>
+        </div>
+      </section>
+      <section className="education section">
+        <div className="container">
+          <h2 className="section__title title title_size_xl title_accent">Education</h2>
+          <p className="text">content will be here soon</p>
+        </div>
+      </section>
+      <section className="project-list section">
+        <div className="container">
+          <h2
+            className="project-list__title section__title title title_size_xl title_accent"
+          >
+            Last projects
+          </h2>
+          <ul className="project-list__wrap">
+            {projects.slice(0, 3).map((project, index) => {
+              return (
+                <Project
+                  key={project.id}
+                  title={project.title}
+                  img={project.img}
+                  index={index}
+                />
+              );
+            })}
+          </ul>
+          <NavLink to="/projects">
+            <Btn text="More projects" />
+          </NavLink>
+        </div>
+      </section>
+      <section className="certifications section" id="certifications">
+        <div className="container">
+          <h2 className="section__title title title_size_xl title_accent">Last certifications</h2>
+          <ul className="certificate-list__wrap">
+            {certificates.slice(0, 3).map((certificate, index) => {
+              return (
+                <Certificate
+                  key={certificate.id}
+                  title={certificate.title}
+                  img={certificate.img}
+                  url={certificate.url}
+                  index={index}
+                />
+              );
+            })}
+          </ul>
+          <NavLink to="/certifications">
+            <Btn text="More certifications" />
+          </NavLink>
+        </div>
+      </section>
+      <section className="references section" id="references">
+        <div className="container">
+          <h2 className="section__title title title_size_xl title_accent">References</h2>
+          <p className="text">content will be here soon</p>
         </div>
       </section>
     </main>

@@ -1,0 +1,61 @@
+@use "sass:map";
+@import "../../assets/styles/variables";
+
+.certificate {
+  &-list {
+    &__wrap {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      column-gap: 1.875rem;
+      row-gap: 3.75rem;
+    }
+  }
+
+  &-item {
+    position: relative;
+    max-width: 23.125rem;
+    box-shadow: var(--box-shadow);
+
+    &__title {
+      position: absolute;
+      left: 0.938rem;
+      right: 0.938rem;
+      bottom: -1.875rem;
+      min-height: 3.75rem;
+      padding: 0.938rem;
+      background-color: var(--project-card-bg);
+      box-shadow: var(--box-shadow);
+      text-align: center;
+      color: var(--project-card-text);
+    }
+  }
+
+  &-details {
+    margin: 0 auto;
+    max-width: 54.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    &__cover {
+      max-width: 100%;
+      margin-bottom: 2.5rem;
+      box-shadow: var(--box-shadow);
+      border-radius: 0.625rem;
+    }
+
+    &__desc {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      font-weight: map.get($font-weight, "medium");
+      line-height: 1.3;
+
+      @media (min-width: map.get($grid-breakpoints, lg)) {
+        margin-bottom: 1.875rem;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
