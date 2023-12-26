@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import "./style.scss"
 
 const Nav = ({ path, text}) => {
-  const activeLink = 'nav__link link link_theme_light nav__link--active';
+  const activeLink = 'nav__link link link_theme_light link_theme_light-active';
   const normalLink = 'nav__link link link_theme_light';
 
   return (
