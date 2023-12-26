@@ -10,7 +10,6 @@ const Certificate = ({ title, img, url }) => {
             alt={title}
             className="certificate-item__img"
           />
-        <h3 className="certificate-item__title title title_size_lg">{title}</h3>
       </li>
     </NavLink>
   );
