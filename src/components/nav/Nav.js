@@ -7,7 +7,7 @@ const Nav = ({ path, text}) => {
   const normalLink = 'nav__link link link_theme_light';
 
   return (
-    <li className="nav__item">
+    <li className="navbar__nav-item nav__item">
       <NavLink
         to={path}
         className={({ isActive }) =>

@@ -1,0 +1,177 @@
+@use "sass:map";
+@import "../../assets/styles/variables";
+
+.navbar__menu-button {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  width: 1.75rem;
+  height: 1.5rem;
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+
+  @media (min-width: map.get($grid-breakpoints, lg)) {
+    display: none;
+  }
+
+  &:before,
+  &--line,
+  &:after {
+    display: block;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: calc(50% - 0.125rem);
+    width: 1.75rem;
+    height: 0.25rem;
+    background-color: var(--header-text);
+    border-radius: 0.188rem;
+    transform-origin: 50% 50%;
+  }
+
+  &:before {
+    transform: translateY(-0.625rem);
+  }
+
+  &:after {
+    transform: translateY(0.625rem);
+  }
+
+  &.active {
+    &:before {
+      animation: moveTopLine 0.4s forwards;
+    }
+
+    .navbar__menu-button--line {
+      animation: moveMidLine 0.4s forwards;
+    }
+
+    &:after {
+      animation: moveBotLine 0.4s forwards;
+    }
+  }
+
+  &.inactive {
+    &:before {
+      animation: moveTopLineRev 0.4s forwards;
+    }
+
+    .navbar__menu-button--line {
+      animation: moveMidLineRev 0.4s forwards;
+    }
+
+    &:after {
+      animation: moveBotLineRev 0.4s forwards;
+    }
+  }
+}
+
+@keyframes moveTopLine {
+  0% {
+    transform: scale(1) translateY(-0.625rem);
+  }
+  25% {
+    transform: scale(1.5) translateY(-0.688rem);
+  }
+  50% {
+    transform: scale(1) translateY(-0.625rem);
+  }
+  75% {
+    transform: scale(1) translateY(0);
+  }
+  100% {
+    transform: scale(1) translateY(0) rotate(-45deg);
+  }
+}
+
+@keyframes moveMidLine {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.5);
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes moveBotLine {
+  0% {
+    transform: scale(1) translateY(0.625rem);
+  }
+  25% {
+    transform: scale(1.5) translateY(0.688rem);
+  }
+  50% {
+    transform: scale(1) translateY(0.625rem);
+  }
+  75% {
+    transform: scale(1) translateY(0);
+  }
+  100% {
+    transform: scale(1) translateY(0) rotate(45deg);
+  }
+}
+
+@keyframes moveTopLineRev {
+  0% {
+    transform: scale(1) translateY(0) rotate(-45deg);
+  }
+  25% {
+    transform: scale(1.5) translateY(0) rotate(-45deg);
+  }
+  50% {
+    transform: scale(1) translateY(0) rotate(-45deg);
+  }
+  75% {
+    transform: scale(1) translateY(0) rotate(0);
+  }
+  100% {
+    transform: scale(1) translateY(-0.625rem);
+  }
+}
+
+@keyframes moveMidLineRev {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes moveBotLineRev {
+  0% {
+    transform: scale(1) translateY(0) rotate(45deg);
+  }
+  25% {
+    transform: scale(1.5) translateY(0) rotate(45deg);
+  }
+  50% {
+    transform: scale(1) translateY(0) rotate(45deg);
+  }
+  75% {
+    transform: scale(1) translateY(0) rotate(0);
+  }
+  100% {
+    transform: scale(1) translateY(0.625rem);
+  }
+}

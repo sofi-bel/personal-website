@@ -2,33 +2,21 @@
 @import "../../assets/styles/variables";
 
 .navbar {
-  position: absolute;
-  top: 0;
+  position: fixed;
   left: 0;
+  top: 0;
   display: flex;
   justify-content: space-between;
+  gap: 1rem;
   align-items: center;
-  padding: 0 0.938rem;
-  height: 3.125rem;
   width: 100%;
-  background: var(--dark-bg);
-  overflow: hidden;
-  transition:
-    height 0.5s ease-out,
-    background 1s ease-out;
-  transition-delay: 0.2s;
+  padding: 0 0.938rem;
+  height: 5.625rem;
   z-index: 1;
+  background-color: var(--dark-bg);
+  border-bottom: 0.063rem solid var(--dark-border);
 
   @media (min-width: map.get($grid-breakpoints, lg)) {
-    position: relative;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 0.75rem;
-  }
-
-  @media (min-width: map.get($grid-breakpoints, xl)) {
     gap: 2.5rem;
   }
 
@@ -39,43 +27,46 @@
     color: var(--header-text);
 
     @media (min-width: map.get($grid-breakpoints, lg)) {
-      font-size: 1rem;
-    }
-
-    @media (min-width: map.get($grid-breakpoints, xl)) {
       font-size: 1.5rem;
     }
   }
 
-  &.nav-is-visible {
+  &__nav {
+    position: fixed;
+    top: 0;
+    left: -16rem;
     display: flex;
-    flex-direction: row;
-    row-gap: 1.25rem;
-    flex-wrap: wrap;
-    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+    width: 15.625rem;
+    padding: 0 0.938rem;
+    height: 100vh;
     background-color: var(--dark-bg);
-    transition:
-      height 0.3s ease-in,
-      background 0.5s ease-in;
-    transition-delay: 0.25s;
+    border: 0.125rem solid var(--dark-border);
+    transition: transform 0.3s linear;
 
-    .navbar {
-      &__toggler {
-        transform: rotate(90deg);
+    @media (min-width: map.get($grid-breakpoints, lg)) {
+      position: relative;
+      left: auto;
+      width: 100%;
+      height: fit-content;
+      border: none;
+      flex-direction: row;
+      gap: 2.5rem;
+      justify-content: end;
+      padding: 0;
+    }
 
-        &-icon {
-          transition: transform 0.4s $cubic;
-          transition-delay: 0.2s;
-
-          &--line--top {
-            transform: translateY(0.25rem) rotate(45deg);
-          }
-
-          &--line--bottom {
-            transform: translateY(0.188rem) rotate(-45deg);
-          }
-        }
-      }
+    &.active {
+      transform: translateX(100%);
+      transition: transform 0.3s linear;
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      gap: 3.125rem;
+      list-style-type: none;
+      padding-top: 5.625rem;
+      padding-bottom: 3.75rem;
     }
   }
 }

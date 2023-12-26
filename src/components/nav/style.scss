@@ -2,37 +2,23 @@
 @import "../../assets/styles/variables";
 
 .nav {
-  display: none;
-  flex-direction: column;
-  row-gap: 3.125rem;
-
-  @media (min-width: map.get($grid-breakpoints, lg)) {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 0.75rem;
-    font-family: "Poppins", arial, sans-serif;
-    font-size: 1rem;
-    font-weight: map.get($font-weight, "medium");
-  }
-
-  @media (min-width: map.get($grid-breakpoints, xl)) {
-    column-gap: 2.5rem;
-  }
-
   &__item {
+    font-size: 1.25rem;
+    width: 100%;
     border-bottom: 0.063rem solid var(--dark-border);
+    line-height: 2.35;
+    text-align: center;
+    font-weight: map.get($font-weight, "bold");
 
-    @media (min-width: map.get($grid-breakpoints, lg)) {
+    @media (min-width: map.get($grid-breakpoints, md)) {
       border-bottom: none;
+      width: fit-content;
     }
   }
 
   &__link {
     display: block;
     color: var(--header-text);
-    line-height: 2.35;
     transition: opacity 0.2s ease-in;
 
     &:hover {
@@ -52,36 +38,5 @@
         background-color: var(--accent);
       }
     }
-  }
-
-  &.nav-is-visible {
-    display: flex;
-    width: 100%;
-    margin-bottom: auto;
-    animation: fadeInFromNone 0.5s ease-in-out;
-    animation-fill-mode: forwards;
-  }
-
-  &.nav-is-hidden {
-    animation: fadeOutFromBlock 0.5s ease-in-out;
-  }
-}
-
-@keyframes fadeInFromNone {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeOutFromBlock {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
   }
 }
