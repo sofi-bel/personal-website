@@ -36,6 +36,7 @@
 
 .content {
   flex: 1 0 auto;
+  padding-top: 5.625rem;
 }
 
 .section {
@@ -119,6 +120,9 @@
 }
 
 .text {
+  &_centered {
+    text-align: center;
+  }
   &_size {
     &_md {
       font-size: 1rem;

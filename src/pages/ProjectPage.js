@@ -24,13 +24,15 @@ const ProjectPage = () => {
             <p>Skills: {project.skills}</p>
           </div>
 
-          {project.gitHubLink && (
-            <BtnGitHub link={project.gitHubLink} />
-          )}
+          <div className="project-details__btn-wrap">
+            {project.gitHubLink && (
+              <BtnGitHub link={project.gitHubLink} />
+            )}
 
-          {project.webLink && (
-            <Btn link={project.webLink} text="Website" />
-          )}
+            {project.webLink && (
+              <Btn link={project.webLink} text="Website" />
+            )}
+          </div>
         </div>
       </div>
     </main>

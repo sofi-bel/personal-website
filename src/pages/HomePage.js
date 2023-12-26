@@ -16,7 +16,7 @@ const HomePage = () => {
       <section className="about-me section">
         <div className="container">
           <h2 className="section__title title title_size_xl">About Me</h2>
-          <p className="text">content will be here soon</p>
+          <p className="text text_centered">content will be here soon</p>
         </div>
       </section>
       <section className="skills section">
@@ -39,13 +39,13 @@ const HomePage = () => {
       <section className="experience section">
         <div className="container">
           <h2 className="section__title title title_size_xl">Experience</h2>
-          <p className="text">content will be here soon</p>
+          <p className="text text_centered">content will be here soon</p>
         </div>
       </section>
       <section className="education section">
         <div className="container">
           <h2 className="section__title title title_size_xl title_accent">Education</h2>
-          <p className="text">content will be here soon</p>
+          <p className="text text_centered">content will be here soon</p>
         </div>
       </section>
       <section className="project-list section">
@@ -67,8 +67,8 @@ const HomePage = () => {
               );
             })}
           </ul>
-          <NavLink to="/projects">
-            <Btn text="More projects" />
+          <NavLink to="/projects" className="project-list__button">
+            <button className="btn btn_theme_primary">More projects</button>
           </NavLink>
         </div>
       </section>
@@ -88,15 +88,15 @@ const HomePage = () => {
               );
             })}
           </ul>
-          <NavLink to="/certifications">
-            <Btn text="More certifications" />
+          <NavLink to="/certifications" className="certificate-list__button">
+            <button className="btn btn_theme_primary">More certifications</button>
           </NavLink>
         </div>
       </section>
       <section className="references section" id="references">
         <div className="container">
           <h2 className="section__title title title_size_xl title_accent">References</h2>
-          <p className="text">content will be here soon</p>
+          <p className="text text_centered">content will be here soon</p>
         </div>
       </section>
     </main>

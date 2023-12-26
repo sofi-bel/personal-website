@@ -38,6 +38,6 @@
 
   @media (min-width: map.get($grid-breakpoints, lg)) {
     order: 1;
-    width: 4.55rem;
+    flex: 1 0 auto;
   }
 }

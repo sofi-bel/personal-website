@@ -3,12 +3,19 @@
 
 .certificate {
   &-list {
+    margin-bottom: 2rem;
+
     &__wrap {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
       column-gap: 1.875rem;
       row-gap: 3.75rem;
+    }
+
+    &__button {
+      margin-top: 3.75rem;
+      align-self: center;
     }
   }
 
