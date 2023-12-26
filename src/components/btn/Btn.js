@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.scss"
 
 const Btn = ({ link, text }) => {
   return (

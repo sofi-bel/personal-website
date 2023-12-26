@@ -1,6 +1,7 @@
 import React from "react";
 import { socialMedia } from "../../helpers/socialList";
 import Social from "../social/Social";
+import "./style.scss"
 
 const Footer = () => {
   return (

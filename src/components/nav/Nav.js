@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "./style.scss"
 
 const Nav = ({ path, text}) => {
   const activeLink = 'nav__link link link_theme_light nav__link--active';

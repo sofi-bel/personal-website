@@ -3,6 +3,7 @@ import  {useLocalStorage} from "../../utils/useLocalStorage";
 import detectDarkMode from "../../utils/detectDarkMode";
 import sunIcon from "../../assets/images/icons/sunIcon.svg";
 import moonIcon from "../../assets/images/icons/moonIcon.svg";
+import "./style.scss"
 
 const BtnDarkMode = () => {
   const [darkMode, setDarkMode] = useLocalStorage('darkMode', detectDarkMode());

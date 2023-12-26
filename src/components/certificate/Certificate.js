@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from 'react-router-dom';
-
+import "./style.scss"
 const Certificate = ({ title, img, url }) => {
   return (
     <NavLink to={url}>

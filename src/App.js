@@ -7,7 +7,6 @@ import CertificationsPage from "./pages/CertificationsPage";
 import ProjectPage from "./pages/ProjectPage";
 import ContactsPage from "./pages/ContactsPage";
 import ScrollToTop from "./utils/scrollToTop";
-import "./assets/styles/index.scss";
 
 function App() {
   return (

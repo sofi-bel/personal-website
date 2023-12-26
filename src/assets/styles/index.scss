@@ -1,22 +1,135 @@
+@use "sass:map";
 @import "reset";
 @import "../vendor/fonts";
-@import "../../components/page/style";
-@import "../../components/container/style";
-@import "../../components/header/style";
-@import "../../components/nav/style";
-@import "../../components/navbar/style";
-@import "../../components/content/style";
-@import "../../components/heroHeader/style";
-@import "../../components/section/style";
-@import "../../components/project/style";
-@import "../../components/certificate/style";
-@import "../../components/skill/style";
-@import "../../components/contact/style";
-@import "../../components/footer/style";
-@import "../../components/title/style";
-@import "../../components/text/style";
-@import "../../components/link/style";
-@import "../../components/btn/style";
-@import "../../components/btnDarkMode/style";
-@import "../../components/social/style";
-@import "../../components/btnToggleMenu/style";
+@import "../../assets/styles/variables";
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: $font-stack;
+  font-weight: map.get($font-weight, "normal");
+  letter-spacing: -0.031rem;
+  background-color: var(--page-bg);
+  color: var(--text-color);
+
+  &_theme {
+    &_dark {
+      --page-bg: #252526;
+      --text-color: var(--white);
+      --title-accent: var(--white);
+      --project-card-bg: var(--dark-grey);
+      --project-card-text: var(--white);
+      --box-shadow: 0 0 0.938rem rgba(0, 0, 0, 0.8);
+    }
+  }
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: map.get($container-max-widths, lg);
+  margin: 0 auto;
+  padding: 0 0.938rem;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.section {
+  padding: 2.5rem 0;
+
+  @media (min-width: map.get($grid-breakpoints, lg)) {
+    padding: 4.375rem 0;
+  }
+
+  &__title {
+    margin-bottom: 1.875rem;
+    text-align: center;
+    color: var(--accent);
+
+    @media (min-width: map.get($grid-breakpoints, lg)) {
+      margin-bottom: 3.75rem;
+    }
+  }
+}
+
+.link {
+  color: var(--accent);
+  transition: opacity 0.2s ease-in;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &_theme {
+    &_light {
+      color: var(--light-text);
+    }
+  }
+}
+
+.title {
+  &_size {
+    &_xxl {
+      font-size: 2.5rem;
+      font-weight: map.get($font-weight, "bold");
+      line-height: 1.4;
+
+      &.title_accent {
+        color: var(--title-accent);
+      }
+
+      @media (min-width: map.get($grid-breakpoints, lg)) {
+        font-size: 3.75rem;
+      }
+    }
+
+    &_xl {
+      font-size: 1.875rem;
+      font-weight: map.get($font-weight, "bold");
+      line-height: 1.3;
+      text-align: center;
+
+      &.title_accent {
+        color: var(--title-accent);
+      }
+
+      @media (min-width: map.get($grid-breakpoints, lg)) {
+        font-size: 3.75rem;
+      }
+    }
+
+    &_lg {
+      font-size: 1.5rem;
+      font-weight: map.get($font-weight, "bold");
+      line-height: 1.3;
+    }
+  }
+
+  &_accent {
+    color: var(--accent);
+  }
+
+  &_typing {
+    //TODO add animation
+  }
+}
+
+.text {
+  &_size {
+    &_md {
+      font-size: 1rem;
+
+      @media (min-width: map.get($grid-breakpoints, lg)) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  &_accent {
+    color: var(--title-accent);
+  }
+}

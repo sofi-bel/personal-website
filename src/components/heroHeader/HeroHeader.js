@@ -1,5 +1,6 @@
 import React from "react";
 import Btn from "../btn/Btn";
+import "./style.scss"
 
 const HeroHeader = () => {
   return (
