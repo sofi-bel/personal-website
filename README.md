@@ -23,7 +23,7 @@ Production Build
 npm run build
 ```
 
-### Demo
+## Demo
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6d1705da-37e0-4563-8d08-9b92a7d5465a/deploy-status)](https://app.netlify.com/sites/sofi-bel/deploys) 
 
 [Look at the result.](https://sofi-bel.netlify.app/)
