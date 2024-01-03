@@ -5,6 +5,7 @@
   "rules": {
     "unit-allowed-list": ["%", "deg", "px", "rem", "ms", "fr", "vh", "s"],
     "at-rule-no-unknown": null,
+    "no-invalid-position-at-import-rule": null,
     "media-query-no-invalid": null
   },
   "ignoreFiles": [
