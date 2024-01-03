@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import  {useLocalStorage} from "../../utils/useLocalStorage";
+import { useLocalStorage } from "../../utils/useLocalStorage";
 import detectDarkMode from "../../utils/detectDarkMode";
 import sunIcon from "../../assets/images/icons/sunIcon.svg";
 import moonIcon from "../../assets/images/icons/moonIcon.svg";
@@ -35,17 +35,12 @@ const BtnDarkMode = () => {
   const btnActive = "dark-mode-btn dark-mode-btn_active";
 
   return (
-    <button className={darkMode === "dark" ? btnActive : btnNormal} onClick={toggleDarkMode}>
-      <img
-        src={sunIcon}
-        alt="Light mode"
-        className="dark-mode-btn__icon"
-      />
-      <img
-        src={moonIcon}
-        alt="Dark mode"
-        className="dark-mode-btn__icon"
-      />
+    <button
+      className={darkMode === "dark" ? btnActive : btnNormal}
+      onClick={toggleDarkMode}
+    >
+      <img src={sunIcon} alt="Light mode" className="dark-mode-btn__icon" />
+      <img src={moonIcon} alt="Dark mode" className="dark-mode-btn__icon" />
     </button>
   );
 };

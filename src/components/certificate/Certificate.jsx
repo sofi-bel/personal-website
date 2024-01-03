@@ -5,11 +5,7 @@ const Certificate = ({ title, img, url }) => {
   return (
     <NavLink to={url}>
       <li className="certificate-item">
-        <img
-          src={img}
-          alt={title}
-          className="certificate-item__img"
-        />
+        <img src={img} alt={title} className="certificate-item__img" />
       </li>
     </NavLink>
   );
@@ -18,7 +14,7 @@ const Certificate = ({ title, img, url }) => {
 Certificate.propTypes = {
   title: PropTypes.string.isRequired,
   img: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired
+  url: PropTypes.string.isRequired,
 };
 
 export default Certificate;

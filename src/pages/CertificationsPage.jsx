@@ -6,9 +6,7 @@ const CertificationsPage = () => {
     <main className="content">
       <section className="certificate-list section">
         <div className="container">
-          <h2
-            className="certificate-list__title section__title title title_size_xl title_accent"
-          >
+          <h2 className="certificate-list__title section__title title title_size_xl title_accent">
             Certifications
           </h2>
           <ul className="certificate-list__wrap">

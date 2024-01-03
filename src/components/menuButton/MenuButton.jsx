@@ -5,8 +5,9 @@ export const MenuButton = ({ isActive = false, onClick }) => {
   return (
     <button
       onClick={() => onClick()}
-      className=
-        {`navbar__menu-button ${isActive === true ? "active" : "inactive"}`}
+      className={`navbar__menu-button ${
+        isActive === true ? "active" : "inactive"
+      }`}
     >
       <span className="navbar__menu-button--line"></span>
     </button>
@@ -15,6 +16,5 @@ export const MenuButton = ({ isActive = false, onClick }) => {
 
 MenuButton.propTypes = {
   isActive: PropTypes.bool.isRequired,
-  onClick: PropTypes.func.isRequired
+  onClick: PropTypes.func.isRequired,
 };
-

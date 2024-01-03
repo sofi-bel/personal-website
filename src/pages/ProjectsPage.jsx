@@ -6,9 +6,7 @@ const ProjectsPage = () => {
     <main className="content">
       <section className="project-list section" id="projects">
         <div className="container">
-          <h2
-            className="project-list__title section__title title title_size_xl title_accent"
-          >
+          <h2 className="project-list__title section__title title title_size_xl title_accent">
             Projects
           </h2>
           <ul className="project-list__wrap">

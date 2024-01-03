@@ -24,4 +24,4 @@ const contacts = [
   },
 ];
 
-export {contacts};
+export { contacts };

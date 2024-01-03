@@ -15,4 +15,4 @@ const socialMedia = [
   },
 ];
 
-export {socialMedia};
+export { socialMedia };

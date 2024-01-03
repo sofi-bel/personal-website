@@ -21,4 +21,4 @@ const navs = [
   },
 ];
 
-export {navs};
+export { navs };

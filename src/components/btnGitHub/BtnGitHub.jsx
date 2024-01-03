@@ -13,6 +13,6 @@ const BtnGitHub = ({ link }) => {
 };
 
 BtnGitHub.propTypes = {
-  link: PropTypes.string.isRequired
+  link: PropTypes.string.isRequired,
 };
 export default BtnGitHub;

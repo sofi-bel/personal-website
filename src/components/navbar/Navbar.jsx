@@ -12,7 +12,7 @@ const Navbar = () => {
   const menuRef = useRef(null);
 
   useClickOutside(menuRef, () => {
-    if(isOpen) setTimeout(() => setOpen(false), 50);
+    if (isOpen) setTimeout(() => setOpen(false), 50);
   });
 
   useEffect(() => {
@@ -29,14 +29,14 @@ const Navbar = () => {
     document.addEventListener("touchend", (event) => {
       endTouchX = event.changedTouches[0].pageX;
       endTouchY = event.changedTouches[0].pageY;
-      if(
+      if (
         startTouchX < 100 &&
         Math.abs(endTouchY - startTouchY < 40) &&
         endTouchX > startTouchX
       )
         setOpen(true);
 
-      if(
+      if (
         startTouchX < 260 &&
         Math.abs(endTouchY - startTouchY < 40) &&
         endTouchX < startTouchX
@@ -53,13 +53,7 @@ const Navbar = () => {
       <BtnDarkMode />
       <ul className={`navbar__nav nav ${isOpen ? "active" : ""}`} ref={menuRef}>
         {navs.map((nav) => {
-          return (
-            <Nav
-              key={nav.id}
-              path={nav.path}
-              text={nav.text}
-            />
-          );
+          return <Nav key={nav.id} path={nav.path} text={nav.text} />;
         })}
       </ul>
       <MenuButton isActive={isOpen} onClick={() => setOpen(!isOpen)} />
@@ -68,4 +62,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

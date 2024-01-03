@@ -56,4 +56,4 @@ const certificates = [
   },
 ];
 
-export {certificates};
+export { certificates };

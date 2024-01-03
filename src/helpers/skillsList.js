@@ -89,4 +89,4 @@ const skills = [
   },
 ];
 
-export {skills};
+export { skills };

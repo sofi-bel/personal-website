@@ -40,7 +40,8 @@ const projects = [
     skills: "...",
     img: oneTreePlanted,
     imgBig: oneTreePlanted,
-    webLink: "https://web.archive.org/web/20221003102129/https://playfortrees.onetreeplanted.org/",
+    webLink:
+      "https://web.archive.org/web/20221003102129/https://playfortrees.onetreeplanted.org/",
   },
   {
     id: 15,
@@ -167,4 +168,4 @@ const projects = [
   },
 ];
 
-export {projects};
+export { projects };
