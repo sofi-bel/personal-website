@@ -15,7 +15,7 @@ const HomePage = () => {
       <HeroHeader />
       <section className="about-me section">
         <div className="container">
-          <h2 className="section__title title title_size_xl">About Me</h2>
+          <h2 className="section__title title title_size_xl title_accent">About Me</h2>
           <p className="text text_centered">content will be here soon</p>
         </div>
       </section>
@@ -38,7 +38,7 @@ const HomePage = () => {
       </section>
       <section className="experience section">
         <div className="container">
-          <h2 className="section__title title title_size_xl">Experience</h2>
+          <h2 className="section__title title title_size_xl title_accent">Experience</h2>
           <p className="text text_centered">content will be here soon</p>
         </div>
       </section>
