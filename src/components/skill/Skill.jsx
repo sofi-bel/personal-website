@@ -10,7 +10,7 @@ Skill.propTypes = {
 };
 
 Skill.propTypes = {
-  text: PropTypes.string.isRequired
+  text: PropTypes.string.isRequired,
 };
 
 export default Skill;
