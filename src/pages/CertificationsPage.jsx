@@ -1,4 +1,3 @@
-import React from "react";
 import Certificate from "../components/certificate/Certificate.jsx";
 import { certificates } from "../helpers/certificatesList";
 

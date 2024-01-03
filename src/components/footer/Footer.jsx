@@ -1,7 +1,6 @@
-import React from "react";
 import { socialMedia } from "../../helpers/socialList";
 import Social from "../social/Social.jsx";
-import "./style.scss"
+import "./style.scss";
 
 const Footer = () => {
   let currentYear = new Date().getFullYear();

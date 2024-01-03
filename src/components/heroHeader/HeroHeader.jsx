@@ -1,6 +1,5 @@
-import React from "react";
 import Btn from "../btn/Btn.jsx";
-import "./style.scss"
+import "./style.scss";
 
 const HeroHeader = () => {
   return (
@@ -10,10 +9,10 @@ const HeroHeader = () => {
           Hi, my name is Sofi Bel.<br />
           <strong
             className="hero-header__title hero-header__title_typing title title_accent title_typing"
-          >I'm a Front End Developer</strong
+          >I&apos;m a Front End Developer</strong
           >
         </h1>
-        <Btn text="Download CV"/>
+        <Btn link="https://hh.ru/resume/3c29fb55ff0bdfe6c30039ed1f534445353343" text="Download CV"/>
       </div>
     </header>
   );

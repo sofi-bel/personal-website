@@ -5,10 +5,10 @@ import { NavLink } from "react-router-dom";
 import { navs } from "../../helpers/navList";
 import { useClickOutside } from "../../utils/useClickOutside";
 import { MenuButton } from "../menuButton/MenuButton.jsx";
-import "./style.scss"
+import "./style.scss";
 
 const Navbar = () => {
-  const [isOpen, setOpen] = useState();
+  const [isOpen, setOpen] = useState(false);
   const menuRef = useRef(null);
 
   useClickOutside(menuRef, () => {

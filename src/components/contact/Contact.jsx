@@ -1,5 +1,5 @@
-import React from "react";
-import "./style.scss"
+import PropTypes from "prop-types";
+import "./style.scss";
 
 const Contact = ({ title, text, link, linkText }) => {
   return (
@@ -15,4 +15,10 @@ const Contact = ({ title, text, link, linkText }) => {
   );
 };
 
+Contact.propTypes = {
+  title: PropTypes.string.isRequired,
+  text: PropTypes.string,
+  link: PropTypes.string,
+  linkText: PropTypes.string
+};
 export default Contact;

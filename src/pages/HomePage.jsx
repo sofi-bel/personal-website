@@ -1,5 +1,4 @@
-import React from "react";
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 import HeroHeader from "../components/heroHeader/HeroHeader.jsx";
 import Skill from "../components/skill/Skill.jsx";
 import Project from "../components/project/Project.jsx";

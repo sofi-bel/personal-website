@@ -1,5 +1,6 @@
-import React from "react";
-import "./style.scss"
+import PropTypes from "prop-types";
+import "./style.scss";
+
 
 const Social = ({ link, img, imgAlt }) => {
   return (
@@ -15,4 +16,9 @@ const Social = ({ link, img, imgAlt }) => {
   );
 };
 
+Social.propTypes = {
+  link: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired,
+  imgAlt: PropTypes.string.isRequired
+};
 export default Social;

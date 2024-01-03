@@ -1,92 +1,92 @@
 const skills = [
   {
     id: 1,
-    text: 'HTML',
+    text: "HTML",
   },
   {
     id: 2,
-    text: 'CSS',
+    text: "CSS",
   },
   {
     id: 3,
-    text: 'JavaScript',
+    text: "JavaScript",
   },
   {
     id: 4,
-    text: 'React',
+    text: "React",
   },
   {
     id: 5,
-    text: 'TypeScript',
+    text: "TypeScript",
   },
   {
     id: 6,
-    text: 'Handlebars',
+    text: "Handlebars",
   },
   {
     id: 7,
-    text: 'Pug',
+    text: "Pug",
   },
   {
     id: 8,
-    text: 'SASS/SCSS',
+    text: "SASS/SCSS",
   },
   {
     id: 9,
-    text: 'PostCSS',
+    text: "PostCSS",
   },
   {
     id: 10,
-    text: 'NPM',
+    text: "NPM",
   },
   {
     id: 11,
-    text: 'Yarn',
+    text: "Yarn",
   },
   {
     id: 12,
-    text: 'Gitlab',
+    text: "Gitlab",
   },
   {
     id: 13,
-    text: 'GitHub',
+    text: "GitHub",
   },
   {
     id: 14,
-    text: 'Wepbpack',
+    text: "Wepbpack",
   },
   {
     id: 15,
-    text: 'Vite',
+    text: "Vite",
   },
   {
     id: 16,
-    text: 'Vercel',
+    text: "Vercel",
   },
   {
     id: 17,
-    text: 'Netlify',
+    text: "Netlify",
   },
   {
     id: 18,
-    text: 'Bootstrap',
+    text: "Bootstrap",
   },
   {
     id: 19,
-    text: 'ESlint',
+    text: "ESlint",
   },
   {
     id: 20,
-    text: 'Prettier',
+    text: "Prettier",
   },
   {
     id: 21,
-    text: 'Stylelint',
+    text: "Stylelint",
   },
   {
     id: 22,
-    text: 'Docker',
+    text: "Docker",
   },
 ];
 
-export {skills}
+export {skills};
