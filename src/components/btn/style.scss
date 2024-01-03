@@ -1,5 +1,5 @@
-@use "sass:map";
 @import "../../assets/styles/variables";
+@use "sass:map";
 
 .btn {
   display: flex;
@@ -29,9 +29,6 @@
       background-color: var(--white);
       color: var(--black);
       border: 0.063rem solid var(--black);
-
-      &:hover {
-      }
     }
   }
 }

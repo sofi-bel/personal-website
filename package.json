@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "prettier": "npx prettier src/ --write",
     "lint": "npx eslint src/ --ext .js,.jsx,.ts,.tsx",
-    "stylelint": "npx stylelint **/*.pcss --fix"
+    "stylelint": "npx stylelint **/*.scss --fix"
   },
   "engines": {
     "node": "^v20.10.0"
