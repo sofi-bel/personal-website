@@ -4,6 +4,8 @@ import Social from "../social/Social";
 import "./style.scss"
 
 const Footer = () => {
+  let currentYear = new Date().getFullYear();
+
   return (
     <footer className="footer">
       <div className="container">
@@ -21,7 +23,7 @@ const Footer = () => {
             })}
           </ul>
           <div className="footer__copyright">
-            <p>© 2023 Sofi Bel</p>
+            <p>© 2023 - {currentYear} Sofi Bel</p>
           </div>
         </div>
       </div>
