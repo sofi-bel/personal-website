@@ -13,75 +13,75 @@ const skills = [
   },
   {
     id: 4,
-    text: 'Pug',
-  },
-  {
-    id: 5,
-    text: 'Handlebars',
-  },
-  {
-    id: 6,
-    text: 'SASS/SCSS',
-  },
-  {
-    id: 7,
     text: 'React',
   },
   {
-    id: 8,
+    id: 5,
     text: 'TypeScript',
   },
   {
+    id: 6,
+    text: 'Handlebars',
+  },
+  {
+    id: 7,
+    text: 'Pug',
+  },
+  {
+    id: 8,
+    text: 'SASS/SCSS',
+  },
+  {
     id: 9,
-    text: 'NPM',
-  },
-  {
-    id: 10,
-    text: 'Yarn',
-  },
-  {
-    id: 11,
-    text: 'Bootstrap',
-  },
-  {
-    id: 12,
     text: 'PostCSS',
   },
   {
-    id: 13,
+    id: 10,
+    text: 'NPM',
+  },
+  {
+    id: 11,
+    text: 'Yarn',
+  },
+  {
+    id: 12,
     text: 'Gitlab',
   },
   {
-    id: 14,
+    id: 13,
     text: 'GitHub',
   },
   {
-    id: 15,
+    id: 14,
     text: 'Wepbpack',
   },
   {
-    id: 16,
+    id: 15,
     text: 'Vite',
   },
   {
-    id: 17,
-    text: 'ESlint',
-  },
-  {
-    id: 18,
-    text: 'Prettier',
-  },
-  {
-    id: 19,
-    text: 'Stylelint',
-  },
-  {
-    id: 20,
+    id: 16,
     text: 'Vercel',
   },
   {
-    id: 21,
+    id: 17,
     text: 'Netlify',
+  },
+  {
+    id: 18,
+    text: 'Bootstrap',
+  },
+  {
+    id: 19,
+    text: 'ESlint',
+  },
+  {
+    id: 20,
+    text: 'Prettier',
+  },
+  {
+    id: 21,
+    text: 'Stylelint',
   },
   {
     id: 22,
