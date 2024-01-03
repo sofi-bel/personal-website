@@ -1,12 +1,18 @@
 import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
 import "./style.scss";
+import ImgNextGen from "../imgNextGen/ImgNextGen.jsx";
 
-const Project = ({ title, img, index }) => {
+const Project = ({ srcWebp, fallback, title, index }) => {
   return (
     <NavLink to={`/project/${index}`}>
       <li className="project-item">
-        <img src={img} alt={title} className="project-item__img" />
+        <ImgNextGen
+          className={"project-item__img"}
+          srcWebp={srcWebp}
+          fallback={fallback}
+          alt={title}
+        />
         <h3 className="project-item__title title title_size_lg">{title}</h3>
       </li>
     </NavLink>
@@ -14,8 +20,9 @@ const Project = ({ title, img, index }) => {
 };
 
 Project.propTypes = {
+  srcWebp: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  img: PropTypes.string.isRequired,
+  fallback: PropTypes.string.isRequired,
   index: PropTypes.number.isRequired,
 };
 

@@ -15,7 +15,9 @@ const ProjectsPage = () => {
                 <Project
                   key={project.id}
                   title={project.title}
-                  img={project.img}
+                  fallback={project.fallback}
+                  srcWebp={project.srcWebp}
+                  srcJ2k={project.srcJ2k}
                   index={index}
                 />
               );
