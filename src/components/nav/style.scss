@@ -12,6 +12,10 @@
 
     @media (min-width: map.get($grid-breakpoints, md)) {
       border-bottom: none;
+      width: fit-content;
+    }
+
+    @media (min-width: map.get($grid-breakpoints, xl)) {
       width: 10rem;
     }
 
