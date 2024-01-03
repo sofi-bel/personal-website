@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 import "./style.scss";
 const Certificate = ({ title, img, url }) => {
   return (
-    <NavLink to={url}>
-      <li className="certificate-item">
+    <li className="certificate-item">
+      <NavLink to={url}>
         <img src={img} alt={title} className="certificate-item__img" />
-      </li>
-    </NavLink>
+      </NavLink>
+    </li>
   );
 };
 

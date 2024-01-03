@@ -39,6 +39,7 @@ const projects = [
   {
     id: 18,
     title: "Momentum",
+    alt: "Momentum image",
     skills: "React, TypeScript, SASS, Vercel, GitLab, Responsive Web Design",
     fallback: momentum,
     srcWebp: momentumWebp,
@@ -47,6 +48,7 @@ const projects = [
   {
     id: 17,
     title: "Momentum portal",
+    alt: "Momentum portal image",
     skills: "React, TypeScript, SASS, Vercel, GitLab, Responsive Web Design",
     fallback: momentumPortal,
     srcWebp: momentumPortalWebp,
@@ -55,6 +57,7 @@ const projects = [
   {
     id: 16,
     title: "One Tree Planted",
+    alt: "One Tree Planted image",
     skills: "...",
     fallback: oneTreePlanted,
     srcWebp: oneTreePlantedWebp,
@@ -64,6 +67,7 @@ const projects = [
   {
     id: 15,
     title: "Mesto",
+    alt: "Mesto image",
     skills: "...",
     fallback: mesto,
     srcWebp: mestoWebp,
@@ -73,6 +77,7 @@ const projects = [
   {
     id: 14,
     title: "Russian Travel",
+    alt: "Russian Travel image",
     skills: "...",
     fallback: russianTravel,
     srcWebp: russianTravelWebp,
@@ -82,6 +87,7 @@ const projects = [
   {
     id: 13,
     title: "How to learn",
+    alt: "How to learn image",
     skills: "...",
     fallback: howToLearn,
     srcWebp: howToLearnWebp,
@@ -91,6 +97,7 @@ const projects = [
   {
     id: 12,
     title: "EA Hub profiles",
+    alt: "EA Hub profiles image",
     skills: "...",
     fallback: eahub,
     srcWebp: eahubWebp,
@@ -99,6 +106,7 @@ const projects = [
   {
     id: 11,
     title: "Agilary",
+    alt: "Agilary image",
     skills: "...",
     fallback: agilary,
     srcWebp: agilaryWebp,
@@ -107,6 +115,7 @@ const projects = [
   {
     id: 10,
     title: "LWL",
+    alt: "LWL image",
     skills: "...",
     fallback: LWL,
     srcWebp: LWLWebp,
@@ -115,6 +124,7 @@ const projects = [
   {
     id: 9,
     title: "Dectris",
+    alt: "Dectris image",
     skills: "...",
     fallback: dectris,
     srcWebp: dectrisWebp,
@@ -123,6 +133,7 @@ const projects = [
   {
     id: 8,
     title: "Kendris",
+    alt: "Kendris image",
     skills: "...",
     fallback: kendris,
     srcWebp: kendrisWebp,
@@ -131,6 +142,7 @@ const projects = [
   {
     id: 7,
     title: "Sherpany",
+    alt: "Sherpany image",
     skills: "...",
     fallback: sherpany,
     srcWebp: sherpanyWebp,
@@ -139,6 +151,7 @@ const projects = [
   {
     id: 6,
     title: "CFA",
+    alt: "CFA image",
     skills: "...",
     fallback: CFA,
     srcWebp: CFAWebp,
@@ -147,6 +160,7 @@ const projects = [
   {
     id: 5,
     title: "DjangoCMS",
+    alt: "DjangoCMS image",
     skills: "...",
     fallback: djangoCMS,
     srcWebp: djangoCMSWebp,
@@ -155,6 +169,7 @@ const projects = [
   {
     id: 4,
     title: "APG|SGA",
+    alt: "APG|SGA image",
     skills: "...",
     fallback: APGSGA,
     srcWebp: APGSGAWebp,
@@ -163,6 +178,7 @@ const projects = [
   {
     id: 3,
     title: "SPR",
+    alt: "SPR image",
     skills: "...",
     fallback: SPR,
     srcWebp: SPRWebp,
@@ -171,6 +187,7 @@ const projects = [
   {
     id: 2,
     title: "UBS",
+    alt: "UBS image",
     skills: "...",
     fallback: UBS,
     srcWebp: UBSWebp,
@@ -179,6 +196,7 @@ const projects = [
   {
     id: 1,
     title: "Vertec",
+    alt: "Vertec image",
     skills: "...",
     fallback: vertec,
     srcWebp: vertecWebp,

@@ -19,7 +19,7 @@ const ProjectPage = () => {
             className={"project-details__cover"}
             srcWebp={project.srcWebp}
             fallback={project.fallback}
-            alt={project.title}
+            alt={project.alt}
           />
           <div className="project-details__desc">
             <p>Skills: {project.skills}</p>
