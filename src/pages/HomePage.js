@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 import HeroHeader from "../components/heroHeader/HeroHeader";
 import Skill from "../components/skill/Skill";
 import Project from "../components/project/Project";
-import Btn from "../components/btn/Btn";
 import Certificate from "../components/certificate/Certificate";
 import { skills } from "../helpers/skillsList";
 import { projects } from "../helpers/projectsList";
