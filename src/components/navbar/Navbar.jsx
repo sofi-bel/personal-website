@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from "react";
-import BtnDarkMode from "../btnDarkMode/BtnDarkMode";
-import Nav from "../nav/Nav";
+import BtnDarkMode from "../btnDarkMode/BtnDarkMode.jsx";
+import Nav from "../nav/Nav.jsx";
 import { NavLink } from "react-router-dom";
 import { navs } from "../../helpers/navList";
 import { useClickOutside } from "../../utils/useClickOutside";
-import { MenuButton } from "../menuButton/MenuButton";
+import { MenuButton } from "../menuButton/MenuButton.jsx";
 import "./style.scss"
 
 const Navbar = () => {

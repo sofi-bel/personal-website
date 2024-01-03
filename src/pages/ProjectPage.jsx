@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import Btn from "../components/btn/Btn";
-import BtnGitHub from "../../src/components/btnGitHub/BtnGitHub";
+import Btn from "../components/btn/Btn.jsx";
+import BtnGitHub from "../components/btnGitHub/BtnGitHub.jsx";
 import { projects } from "../helpers/projectsList";
 
 const ProjectPage = () => {

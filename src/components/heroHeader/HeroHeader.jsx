@@ -1,5 +1,5 @@
 import React from "react";
-import Btn from "../btn/Btn";
+import Btn from "../btn/Btn.jsx";
 import "./style.scss"
 
 const HeroHeader = () => {

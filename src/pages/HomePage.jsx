@@ -1,9 +1,9 @@
 import React from "react";
 import { NavLink } from 'react-router-dom';
-import HeroHeader from "../components/heroHeader/HeroHeader";
-import Skill from "../components/skill/Skill";
-import Project from "../components/project/Project";
-import Certificate from "../components/certificate/Certificate";
+import HeroHeader from "../components/heroHeader/HeroHeader.jsx";
+import Skill from "../components/skill/Skill.jsx";
+import Project from "../components/project/Project.jsx";
+import Certificate from "../components/certificate/Certificate.jsx";
 import { skills } from "../helpers/skillsList";
 import { projects } from "../helpers/projectsList";
 import { certificates } from "../helpers/certificatesList";
