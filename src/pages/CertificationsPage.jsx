@@ -14,8 +14,9 @@ const CertificationsPage = () => {
               return (
                 <Certificate
                   key={certificate.id}
-                  title={certificate.title}
-                  img={certificate.img}
+                  alt={certificate.alt}
+                  fallback={certificate.fallback}
+                  srcWebp={certificate.srcWebp}
                   url={certificate.url}
                   index={index}
                 />
