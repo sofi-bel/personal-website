@@ -8,6 +8,7 @@ export const MenuButton = ({ isActive = false, onClick }) => {
       className={`navbar__menu-button ${
         isActive === true ? "active" : "inactive"
       }`}
+      aria-label="menu-button"
     >
       <span className="navbar__menu-button--line"></span>
     </button>
