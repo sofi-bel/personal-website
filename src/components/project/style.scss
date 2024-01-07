@@ -24,6 +24,15 @@
     max-width: 23.125rem;
     box-shadow: var(--box-shadow);
 
+    &__img {
+      .image {
+        @media (min-width: 25rem) {
+          width: 23.125rem;
+          height: 13rem;
+        }
+      }
+    }
+
     &__title {
       position: absolute;
       left: 0.938rem;
