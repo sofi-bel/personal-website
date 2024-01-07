@@ -29,6 +29,7 @@ const CertificateImgNextGen = ({
         (min-width: 620px) calc(50vw - 23px), 96.67vw"
       />
       <img
+        className="image"
         srcSet={`${srcImage} 580w, ${srcBigImage} 1024w`}
         sizes="(min-width: 1720px) 512px,
         (min-width: 1280px) calc(25.24vw + 83px),

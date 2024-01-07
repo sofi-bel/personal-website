@@ -26,14 +26,14 @@ const ImgNextGen = ({
                   (min-width: 780px) calc(65.56vw + 239px),
                   (min-width: 440px) 370px, calc(83.33vw + 20px)"
           />
-          <img src={srcImage} alt={alt} />
+          <img className="image" src={srcImage} alt={alt} />
         </>
       )}
       {!srcBigImage && (
         <>
           <source srcSet={srcWebp} type="image/webp" />
           <source srcSet={srcImage} type="image/png" />
-          <img src={srcImage} alt={alt} />
+          <img className="image" src={srcImage} alt={alt} />
         </>
       )}
     </picture>

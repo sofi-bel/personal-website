@@ -137,3 +137,13 @@
     color: var(--title-accent);
   }
 }
+
+.image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.icon {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
