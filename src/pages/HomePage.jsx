@@ -82,8 +82,10 @@ const HomePage = () => {
                 <Certificate
                   key={certificate.id}
                   alt={certificate.alt}
-                  fallback={certificate.fallback}
-                  srcWebp={certificate.srcWebp}
+                  srcWebp={certificate.srcImageSmallWebp}
+                  srcImage={certificate.srcImageSmall}
+                  srcImageBigWebp={certificate.srcImageBigWebp}
+                  srcImageBig={certificate.srcImageBig}
                   url={certificate.url}
                   index={index}
                 />
