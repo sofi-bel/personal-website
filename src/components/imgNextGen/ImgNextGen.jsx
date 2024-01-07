@@ -26,7 +26,7 @@ const ImgNextGen = ({
                   (min-width: 780px) calc(65.56vw + 239px),
                   (min-width: 440px) 370px, calc(83.33vw + 20px)"
           />
-          <img src={srcImage} alt={alt} />;
+          <img src={srcImage} alt={alt} />
         </>
       )}
       {!srcBigImage && (
