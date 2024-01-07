@@ -17,8 +17,10 @@ const ProjectPage = () => {
           </h1>
           <ImgNextGen
             className={"project-details__cover"}
-            srcWebp={project.srcWebp}
-            fallback={project.fallback}
+            srcWebp={project.srcImageSmallWebp}
+            srcImage={project.srcImageSmall}
+            srcBigWebp={project.srcImageBigWebp}
+            srcBigImage={project.srcImageBig}
             alt={project.alt}
           />
           <div className="project-details__desc">

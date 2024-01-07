@@ -59,8 +59,8 @@ const HomePage = () => {
                   key={project.id}
                   title={project.title}
                   alt={project.alt}
-                  fallback={project.fallback}
-                  srcWebp={project.srcWebp}
+                  srcImage={project.srcImageSmall}
+                  srcWebp={project.srcImageSmallWebp}
                   index={index}
                 />
               );

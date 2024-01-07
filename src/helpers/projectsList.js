@@ -1,39 +1,75 @@
-import momentum from "../assets/images/projects/momentum.png";
-import momentumWebp from "../assets/images/projects/momentum.webp";
-import momentumPortal from "../assets/images/projects/momentumPortal.png";
-import momentumPortalWebp from "../assets/images/projects/momentumPortal.webp";
-import oneTreePlanted from "../assets/images/projects/oneTreePlanted.png";
-import oneTreePlantedWebp from "../assets/images/projects/oneTreePlanted.webp";
-import mesto from "../assets/images/projects/mesto.png";
-import mestoWebp from "../assets/images/projects/mesto.webp";
-import russianTravel from "../assets/images/projects/russianTravel.png";
-import russianTravelWebp from "../assets/images/projects/russianTravel.webp";
-import howToLearn from "../assets/images/projects/howToLearn.png";
-import howToLearnWebp from "../assets/images/projects/howToLearn.webp";
-import eahub from "../assets/images/projects/eahub.png";
-import eahubWebp from "../assets/images/projects/eahub.webp";
-import agilary from "../assets/images/projects/agilary.png";
-import agilaryWebp from "../assets/images/projects/agilary.webp";
-import LWL from "../assets/images/projects/LWL.png";
-import LWLWebp from "../assets/images/projects/LWL.webp";
-import dectris from "../assets/images/projects/dectris.png";
-import dectrisWebp from "../assets/images/projects/dectris.webp";
-import kendris from "../assets/images/projects/kendris.png";
-import kendrisWebp from "../assets/images/projects/kendris.webp";
-import sherpany from "../assets/images/projects/sherpany.png";
-import sherpanyWebp from "../assets/images/projects/sherpany.webp";
-import CFA from "../assets/images/projects/CFA.png";
-import CFAWebp from "../assets/images/projects/CFA.webp";
-import djangoCMS from "../assets/images/projects/djangoCMS.png";
-import djangoCMSWebp from "../assets/images/projects/djangoCMS.webp";
-import APGSGA from "../assets/images/projects/APGSGA.png";
-import APGSGAWebp from "../assets/images/projects/APGSGA.webp";
-import SPR from "../assets/images/projects/SPR.png";
-import SPRWebp from "../assets/images/projects/SPR.webp";
-import UBS from "../assets/images/projects/UBS.png";
-import UBSWebp from "../assets/images/projects/UBS.webp";
-import vertec from "../assets/images/projects/vertec.png";
-import vertecWebp from "../assets/images/projects/vertec.webp";
+import momentumSmall from "../assets/images/projects/momentumSmall.png";
+import momentumSmallWebp from "../assets/images/projects/momentumSmall.webp";
+import momentumBig from "../assets/images/projects/momentumBig.png";
+import momentumBigWebp from "../assets/images/projects/momentumBig.webp";
+import momentumPortalSmall from "../assets/images/projects/momentumPortalSmall.png";
+import momentumPortalSmallWebp from "../assets/images/projects/momentumPortalSmall.webp";
+import momentumPortalBig from "../assets/images/projects/momentumPortalBig.png";
+import momentumPortalBigWebp from "../assets/images/projects/momentumPortalBig.webp";
+import oneTreePlantedSmall from "../assets/images/projects/oneTreePlantedSmall.png";
+import oneTreePlantedSmallWebp from "../assets/images/projects/oneTreePlantedSmall.webp";
+import oneTreePlantedBig from "../assets/images/projects/oneTreePlantedBig.png";
+import oneTreePlantedBigWebp from "../assets/images/projects/oneTreePlantedBig.webp";
+import mestoSmall from "../assets/images/projects/mestoSmall.png";
+import mestoSmallWebp from "../assets/images/projects/mestoSmall.webp";
+import mestoBig from "../assets/images/projects/mestoBig.png";
+import mestoBigWebp from "../assets/images/projects/mestoBig.webp";
+import russianTravelSmall from "../assets/images/projects/russianTravelSmall.png";
+import russianTravelSmallWebp from "../assets/images/projects/russianTravelSmall.webp";
+import russianTravelBig from "../assets/images/projects/russianTravelBig.png";
+import russianTravelBigWebp from "../assets/images/projects/russianTravelBig.webp";
+import howToLearnSmall from "../assets/images/projects/howToLearnSmall.png";
+import howToLearnSmallWebp from "../assets/images/projects/howToLearnSmall.webp";
+import howToLearnBig from "../assets/images/projects/howToLearnBig.png";
+import howToLearnBigWebp from "../assets/images/projects/howToLearnBig.webp";
+import eahubSmall from "../assets/images/projects/eahubSmall.png";
+import eahubSmallWebp from "../assets/images/projects/eahubSmall.webp";
+import eahubBig from "../assets/images/projects/eahubBig.png";
+import eahubBigWebp from "../assets/images/projects/eahubBig.webp";
+import agilarySmall from "../assets/images/projects/agilarySmall.png";
+import agilarySmallWebp from "../assets/images/projects/agilarySmall.webp";
+import agilaryBig from "../assets/images/projects/agilaryBig.png";
+import agilaryBigWebp from "../assets/images/projects/agilaryBig.webp";
+import LWLSmall from "../assets/images/projects/LWLSmall.png";
+import LWLSmallWebp from "../assets/images/projects/LWLSmall.webp";
+import LWLBig from "../assets/images/projects/LWLBig.png";
+import LWLBigWebp from "../assets/images/projects/LWLBig.webp";
+import dectrisSmall from "../assets/images/projects/dectrisSmall.png";
+import dectrisSmallWebp from "../assets/images/projects/dectrisSmall.webp";
+import dectrisBig from "../assets/images/projects/dectrisBig.png";
+import dectrisBigWebp from "../assets/images/projects/dectrisBig.webp";
+import kendrisSmall from "../assets/images/projects/kendrisSmall.png";
+import kendrisSmallWebp from "../assets/images/projects/kendrisSmall.webp";
+import kendrisBig from "../assets/images/projects/kendrisBig.png";
+import kendrisBigWebp from "../assets/images/projects/kendrisBig.webp";
+import sherpanySmall from "../assets/images/projects/sherpanySmall.png";
+import sherpanySmallWebp from "../assets/images/projects/sherpanySmall.webp";
+import sherpanyBig from "../assets/images/projects/sherpanyBig.png";
+import sherpanyBigWebp from "../assets/images/projects/sherpanyBig.webp";
+import CFASmall from "../assets/images/projects/CFASmall.png";
+import CFASmallWebp from "../assets/images/projects/CFASmall.webp";
+import CFABig from "../assets/images/projects/CFABig.png";
+import CFABigWebp from "../assets/images/projects/CFABig.webp";
+import djangoCMSSmall from "../assets/images/projects/djangoCMSSmall.png";
+import djangoCMSSmallWebp from "../assets/images/projects/djangoCMSSmall.webp";
+import djangoCMSBig from "../assets/images/projects/djangoCMSBig.png";
+import djangoCMSBigWebp from "../assets/images/projects/djangoCMSBig.webp";
+import APGSGASmall from "../assets/images/projects/APGSGASmall.png";
+import APGSGASmallWebp from "../assets/images/projects/APGSGASmall.webp";
+import APGSGABig from "../assets/images/projects/APGSGABig.png";
+import APGSGABigWebp from "../assets/images/projects/APGSGABig.webp";
+import SPRSmall from "../assets/images/projects/SPRSmall.png";
+import SPRSmallWebp from "../assets/images/projects/SPRSmall.webp";
+import SPRBig from "../assets/images/projects/SPRBig.png";
+import SPRBigWebp from "../assets/images/projects/SPRBig.webp";
+import UBSSmall from "../assets/images/projects/UBSSmall.png";
+import UBSSmallWebp from "../assets/images/projects/UBSSmall.webp";
+import UBSBig from "../assets/images/projects/UBSBig.png";
+import UBSBigWebp from "../assets/images/projects/UBSBig.webp";
+import vertecSmall from "../assets/images/projects/vertecSmall.png";
+import vertecSmallWebp from "../assets/images/projects/vertecSmall.webp";
+import vertecBig from "../assets/images/projects/vertecBig.png";
+import vertecBigWebp from "../assets/images/projects/vertecBig.webp";
 
 const projects = [
   {
@@ -41,8 +77,10 @@ const projects = [
     title: "Momentum",
     alt: "Momentum image",
     skills: "React, TypeScript, SASS, Vercel, GitLab, Responsive Web Design",
-    fallback: momentum,
-    srcWebp: momentumWebp,
+    srcImageSmall: momentumSmall,
+    srcImageSmallWebp: momentumSmallWebp,
+    srcImageBig: momentumBig,
+    srcImageBigWebp: momentumBigWebp,
     webLink: "https://www.givemomentum.com/",
   },
   {
@@ -50,8 +88,10 @@ const projects = [
     title: "Momentum portal",
     alt: "Momentum portal image",
     skills: "React, TypeScript, SASS, Vercel, GitLab, Responsive Web Design",
-    fallback: momentumPortal,
-    srcWebp: momentumPortalWebp,
+    srcImageSmall: momentumPortalSmall,
+    srcImageSmallWebp: momentumPortalSmallWebp,
+    srcImageBig: momentumPortalBig,
+    srcImageBigWebp: momentumPortalBigWebp,
     webLink: "https://portal.givemomentum.com/account/login",
   },
   {
@@ -59,8 +99,10 @@ const projects = [
     title: "One Tree Planted",
     alt: "One Tree Planted image",
     skills: "...",
-    fallback: oneTreePlanted,
-    srcWebp: oneTreePlantedWebp,
+    srcImageSmall: oneTreePlantedSmall,
+    srcImageSmallWebp: oneTreePlantedSmallWebp,
+    srcImageBig: oneTreePlantedBig,
+    srcImageBigWebp: oneTreePlantedBigWebp,
     webLink:
       "https://web.archive.org/web/20221003102129/https://playfortrees.onetreeplanted.org/",
   },
@@ -69,8 +111,10 @@ const projects = [
     title: "Mesto",
     alt: "Mesto image",
     skills: "...",
-    fallback: mesto,
-    srcWebp: mestoWebp,
+    srcImageSmall: mestoSmall,
+    srcImageSmallWebp: mestoSmallWebp,
+    srcImageBig: mestoBig,
+    srcImageBigWebp: mestoBigWebp,
     gitHubLink: "https://github.com/sofi-bel/mesto-project",
     webLink: "https://sofi-bel.github.io/mesto-project/",
   },
@@ -79,8 +123,10 @@ const projects = [
     title: "Russian Travel",
     alt: "Russian Travel image",
     skills: "...",
-    fallback: russianTravel,
-    srcWebp: russianTravelWebp,
+    srcImageSmall: russianTravelSmall,
+    srcImageSmallWebp: russianTravelSmallWebp,
+    srcImageBig: russianTravelBig,
+    srcImageBigWebp: russianTravelBigWebp,
     gitHubLink: "https://github.com/sofi-bel/russian-travel",
     webLink: "https://sofi-bel.github.io/russian-travel/",
   },
@@ -89,8 +135,10 @@ const projects = [
     title: "How to learn",
     alt: "How to learn image",
     skills: "...",
-    fallback: howToLearn,
-    srcWebp: howToLearnWebp,
+    srcImageSmall: howToLearnSmall,
+    srcImageSmallWebp: howToLearnSmallWebp,
+    srcImageBig: howToLearnBig,
+    srcImageBigWebp: howToLearnBigWebp,
     gitHubLink: "https://github.com/sofi-bel/how-to-learn",
     webLink: "https://sofi-bel.github.io/how-to-learn/",
   },
@@ -99,8 +147,10 @@ const projects = [
     title: "EA Hub profiles",
     alt: "EA Hub profiles image",
     skills: "...",
-    fallback: eahub,
-    srcWebp: eahubWebp,
+    srcImageSmall: eahubSmall,
+    srcImageSmallWebp: eahubSmallWebp,
+    srcImageBig: eahubBig,
+    srcImageBigWebp: eahubBigWebp,
     webLink: "https://eahub.org/profiles/",
   },
   {
@@ -108,8 +158,10 @@ const projects = [
     title: "Agilary",
     alt: "Agilary image",
     skills: "...",
-    fallback: agilary,
-    srcWebp: agilaryWebp,
+    srcImageSmall: agilarySmall,
+    srcImageSmallWebp: agilarySmallWebp,
+    srcImageBig: agilaryBig,
+    srcImageBigWebp: agilaryBigWebp,
     webLink: "https://agileryfood.com/en",
   },
   {
@@ -117,8 +169,10 @@ const projects = [
     title: "LWL",
     alt: "LWL image",
     skills: "...",
-    fallback: LWL,
-    srcWebp: LWLWebp,
+    srcImageSmall: LWLSmall,
+    srcImageSmallWebp: LWLSmallWebp,
+    srcImageBig: LWLBig,
+    srcImageBigWebp: LWLBigWebp,
     webLink: "https://www2.lwl.org/de/LWL/portal/",
   },
   {
@@ -126,8 +180,10 @@ const projects = [
     title: "Dectris",
     alt: "Dectris image",
     skills: "...",
-    fallback: dectris,
-    srcWebp: dectrisWebp,
+    srcImageSmall: dectrisSmall,
+    srcImageSmallWebp: dectrisSmallWebp,
+    srcImageBig: dectrisBig,
+    srcImageBigWebp: dectrisBigWebp,
     webLink: "https://www.dectris.com/",
   },
   {
@@ -135,8 +191,10 @@ const projects = [
     title: "Kendris",
     alt: "Kendris image",
     skills: "...",
-    fallback: kendris,
-    srcWebp: kendrisWebp,
+    srcImageSmall: kendrisSmall,
+    srcImageSmallWebp: kendrisSmallWebp,
+    srcImageBig: kendrisBig,
+    srcImageBigWebp: kendrisBigWebp,
     webLink: "https://www.kendris.com/en/",
   },
   {
@@ -144,8 +202,10 @@ const projects = [
     title: "Sherpany",
     alt: "Sherpany image",
     skills: "...",
-    fallback: sherpany,
-    srcWebp: sherpanyWebp,
+    srcImageSmall: sherpanySmall,
+    srcImageSmallWebp: sherpanySmallWebp,
+    srcImageBig: sherpanyBig,
+    srcImageBigWebp: sherpanyBigWebp,
     webLink: "https://www.sherpany.com/en/",
   },
   {
@@ -153,8 +213,10 @@ const projects = [
     title: "CFA",
     alt: "CFA image",
     skills: "...",
-    fallback: CFA,
-    srcWebp: CFAWebp,
+    srcImageSmall: CFASmall,
+    srcImageSmallWebp: CFASmallWebp,
+    srcImageBig: CFABig,
+    srcImageBigWebp: CFABigWebp,
     webLink: "https://cfasocietyswitzerland.org/",
   },
   {
@@ -162,8 +224,10 @@ const projects = [
     title: "DjangoCMS",
     alt: "DjangoCMS image",
     skills: "...",
-    fallback: djangoCMS,
-    srcWebp: djangoCMSWebp,
+    srcImageSmall: djangoCMSSmall,
+    srcImageSmallWebp: djangoCMSSmallWebp,
+    srcImageBig: djangoCMSBig,
+    srcImageBigWebp: djangoCMSBigWebp,
     webLink: "https://www.django-cms.org/en/",
   },
   {
@@ -171,8 +235,10 @@ const projects = [
     title: "APG|SGA",
     alt: "APG|SGA image",
     skills: "...",
-    fallback: APGSGA,
-    srcWebp: APGSGAWebp,
+    srcImageSmall: APGSGASmall,
+    srcImageSmallWebp: APGSGASmallWebp,
+    srcImageBig: APGSGABig,
+    srcImageBigWebp: APGSGABigWebp,
     webLink: "https://www.apgsga.ch/en/",
   },
   {
@@ -180,8 +246,10 @@ const projects = [
     title: "SPR",
     alt: "SPR image",
     skills: "...",
-    fallback: SPR,
-    srcWebp: SPRWebp,
+    srcImageSmall: SPRSmall,
+    srcImageSmallWebp: SPRSmallWebp,
+    srcImageBig: SPRBig,
+    srcImageBigWebp: SPRBigWebp,
     webLink: "https://spr-plus.ch/",
   },
   {
@@ -189,8 +257,10 @@ const projects = [
     title: "UBS",
     alt: "UBS image",
     skills: "...",
-    fallback: UBS,
-    srcWebp: UBSWebp,
+    srcImageSmall: UBSSmall,
+    srcImageSmallWebp: UBSSmallWebp,
+    srcImageBig: UBSBig,
+    srcImageBigWebp: UBSBigWebp,
     webLink: "https://optimus.foundation/en/",
   },
   {
@@ -198,8 +268,10 @@ const projects = [
     title: "Vertec",
     alt: "Vertec image",
     skills: "...",
-    fallback: vertec,
-    srcWebp: vertecWebp,
+    srcImageSmall: vertecSmall,
+    srcImageSmallWebp: vertecSmallWebp,
+    srcImageBig: vertecBig,
+    srcImageBigWebp: vertecBigWebp,
     webLink: "https://www.vertec.com/ch/",
   },
 ];
