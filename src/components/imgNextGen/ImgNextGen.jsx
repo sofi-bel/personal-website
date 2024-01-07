@@ -33,7 +33,7 @@ const ImgNextGen = ({
         <>
           <source srcSet={srcWebp} type="image/webp" />
           <source srcSet={srcImage} type="image/png" />
-          <img src={srcImage} alt={alt} />;
+          <img src={srcImage} alt={alt} />
         </>
       )}
     </picture>
