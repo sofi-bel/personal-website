@@ -12,8 +12,18 @@ const Project = ({ title, alt, srcImage, srcWebp, index }) => {
           srcWebp={srcWebp}
           srcImage={srcImage}
           alt={alt}
+          preload={index < 3}
         />
-        <h3 className="project-item__title title title_size_lg">{title}</h3>
+
+        {index < 3 && (
+          <h3 rel="preload" className="project-item__title title title_size_lg">
+            {title}
+          </h3>
+        )}
+
+        {index >= 3 && (
+          <h3 className="project-item__title title title_size_lg">{title}</h3>
+        )}
       </NavLink>
     </li>
   );

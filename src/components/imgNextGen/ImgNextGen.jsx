@@ -7,6 +7,7 @@ const ImgNextGen = ({
   srcBigImage,
   srcBigWebp,
   alt,
+  preload,
 }) => {
   return (
     <picture className={className}>
@@ -26,14 +27,22 @@ const ImgNextGen = ({
                   (min-width: 780px) calc(65.56vw + 239px),
                   (min-width: 440px) 370px, calc(83.33vw + 20px)"
           />
-          <img className="image" src={srcImage} alt={alt} />
+          {preload && (
+            <img rel="preload" className="image" src={srcImage} alt={alt} />
+          )}
+
+          {!preload && <img className="image" src={srcImage} alt={alt} />}
         </>
       )}
       {!srcBigImage && (
         <>
           <source srcSet={srcWebp} type="image/webp" />
           <source srcSet={srcImage} type="image/png" />
-          <img className="image" src={srcImage} alt={alt} />
+          {preload && (
+            <img rel="preload" className="image" src={srcImage} alt={alt} />
+          )}
+
+          {!preload && <img className="image" src={srcImage} alt={alt} />}
         </>
       )}
     </picture>
@@ -47,6 +56,7 @@ ImgNextGen.propTypes = {
   srcImage: PropTypes.string.isRequired,
   srcBigImage: PropTypes.string,
   alt: PropTypes.string.isRequired,
+  preload: PropTypes.bool.isRequired,
 };
 
 export default ImgNextGen;
