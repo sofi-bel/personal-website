@@ -13,20 +13,44 @@ const ImgNextGen = ({
     <picture className={className}>
       {srcBigImage && (
         <>
-          <source
-            srcSet={`${srcWebp} 740w, ${srcBigWebp} 1736w`}
-            type="image/webp"
-            sizes="(min-width: 980px) 868px,
+          {preload && (
+            <>
+              <source
+                rel="preload"
+                srcSet={`${srcWebp} 740w, ${srcBigWebp} 1736w`}
+                type="image/webp"
+                sizes="(min-width: 980px) 868px,
                   (min-width: 780px) calc(65.56vw + 239px),
                   (min-width: 440px) 370px, calc(83.33vw + 20px)"
-          />
-          <source
-            srcSet={`${srcImage} 740w, ${srcBigImage} 1736w`}
-            type="image/png"
-            sizes="(min-width: 980px) 868px,
+              />
+              <source
+                rel="preload"
+                srcSet={`${srcImage} 740w, ${srcBigImage} 1736w`}
+                type="image/png"
+                sizes="(min-width: 980px) 868px,
                   (min-width: 780px) calc(65.56vw + 239px),
                   (min-width: 440px) 370px, calc(83.33vw + 20px)"
-          />
+              />
+            </>
+          )}
+          {!preload && (
+            <>
+              <source
+                srcSet={`${srcWebp} 740w, ${srcBigWebp} 1736w`}
+                type="image/webp"
+                sizes="(min-width: 980px) 868px,
+                  (min-width: 780px) calc(65.56vw + 239px),
+                  (min-width: 440px) 370px, calc(83.33vw + 20px)"
+              />
+              <source
+                srcSet={`${srcImage} 740w, ${srcBigImage} 1736w`}
+                type="image/png"
+                sizes="(min-width: 980px) 868px,
+                  (min-width: 780px) calc(65.56vw + 239px),
+                  (min-width: 440px) 370px, calc(83.33vw + 20px)"
+              />
+            </>
+          )}
           {preload && (
             <img rel="preload" className="image" src={srcImage} alt={alt} />
           )}
