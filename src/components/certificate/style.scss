@@ -25,5 +25,10 @@
     box-shadow: var(--box-shadow);
     object-fit: cover;
     height: 100%;
+    max-height: fit-content;
+  }
+
+  &-img {
+    aspect-ratio: 1.42 / 1;
   }
 }
