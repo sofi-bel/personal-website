@@ -1,9 +1,11 @@
 import { NavLink } from "react-router-dom";
 import HeroHeader from "../components/heroHeader/HeroHeader.jsx";
 import Skill from "../components/skill/Skill.jsx";
+import Education from "../components/education/Education.jsx";
 import Project from "../components/project/Project.jsx";
 import Certificate from "../components/certificate/Certificate.jsx";
 import { skills } from "../helpers/skillsList";
+import { education } from "../helpers/educationList";
 import { projects } from "../helpers/projectsList";
 import { certificates } from "../helpers/certificatesList";
 
@@ -44,7 +46,21 @@ const HomePage = () => {
           <h2 className="section__title title title_size_xl title_accent">
             Education
           </h2>
-          <p className="text text_centered">content will be here soon</p>
+          <ul className="education-list">
+            {education.map((item, index) => {
+              return (
+                <Education
+                  key={item.id}
+                  school={item.school}
+                  degree={item.degree}
+                  startDate={item.startDate}
+                  endDate={item.endDate}
+                  fieldOfStudy={item.fieldOfStudy}
+                  index={index}
+                />
+              );
+            })}
+          </ul>
         </div>
       </section>
       <section className="project-list section">
