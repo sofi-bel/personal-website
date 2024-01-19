@@ -18,11 +18,6 @@
     @media (min-width: map.get($grid-breakpoints, xl)) {
       width: 10rem;
     }
-
-    &:hover {
-      background-image: url("../../assets/images/icons/line.svg");
-      animation: line 1s;
-    }
   }
 
   &__link {
@@ -33,11 +28,5 @@
     &:hover {
       color: var(--accent);
     }
-  }
-}
-
-@keyframes line {
-  0% {
-    background-position-x: 24.375rem;
   }
 }
