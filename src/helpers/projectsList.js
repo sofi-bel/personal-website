@@ -26,10 +26,10 @@ import eahubSmall from "../assets/images/projects/eahubSmall.png";
 import eahubSmallWebp from "../assets/images/projects/eahubSmall.webp";
 import eahubBig from "../assets/images/projects/eahubBig.png";
 import eahubBigWebp from "../assets/images/projects/eahubBig.webp";
-import agilarySmall from "../assets/images/projects/agilarySmall.png";
-import agilarySmallWebp from "../assets/images/projects/agilarySmall.webp";
-import agilaryBig from "../assets/images/projects/agilaryBig.png";
-import agilaryBigWebp from "../assets/images/projects/agilaryBig.webp";
+import agilerySmall from "../assets/images/projects/agilerySmall.png";
+import agilerySmallWebp from "../assets/images/projects/agilerySmall.webp";
+import agileryBig from "../assets/images/projects/agileryBig.png";
+import agileryBigWebp from "../assets/images/projects/agileryBig.webp";
 import LWLSmall from "../assets/images/projects/LWLSmall.png";
 import LWLSmallWebp from "../assets/images/projects/LWLSmall.webp";
 import LWLBig from "../assets/images/projects/LWLBig.png";
@@ -155,13 +155,13 @@ const projects = [
   },
   {
     id: 11,
-    title: "Agilary",
-    alt: "Agilary image",
+    title: "Agilery",
+    alt: "Agilery image",
     skills: "...",
-    srcImageSmall: agilarySmall,
-    srcImageSmallWebp: agilarySmallWebp,
-    srcImageBig: agilaryBig,
-    srcImageBigWebp: agilaryBigWebp,
+    srcImageSmall: agilerySmall,
+    srcImageSmallWebp: agilerySmallWebp,
+    srcImageBig: agileryBig,
+    srcImageBigWebp: agileryBigWebp,
     webLink: "https://agileryfood.com/en",
   },
   {
