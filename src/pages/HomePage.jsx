@@ -2,9 +2,11 @@ import { NavLink } from "react-router-dom";
 import HeroHeader from "../components/heroHeader/HeroHeader.jsx";
 import Skill from "../components/skill/Skill.jsx";
 import Education from "../components/education/Education.jsx";
+import Experience from "../components/experience/Experience.jsx";
 import Project from "../components/project/Project.jsx";
 import Certificate from "../components/certificate/Certificate.jsx";
 import { skills } from "../helpers/skillsList";
+import { experience } from "../helpers/experienceList";
 import { education } from "../helpers/educationList";
 import { projects } from "../helpers/projectsList";
 import { certificates } from "../helpers/certificatesList";
@@ -38,7 +40,24 @@ const HomePage = () => {
           <h2 className="section__title title title_size_xl title_accent">
             Experience
           </h2>
-          <p className="text text_centered">content will be here soon</p>
+          <ul className="experience-list__wrap">
+            {experience.map((item, index) => {
+              return (
+                <Experience
+                  key={item.id}
+                  title={item.title}
+                  employmentType={item.employmentType}
+                  companyName={item.companyName}
+                  url={item.url}
+                  locationType={item.locationType}
+                  startDate={item.startDate}
+                  endDate={item.endDate}
+                  description={item.description}
+                  index={index}
+                />
+              );
+            })}
+          </ul>
         </div>
       </section>
       <section className="education section">
