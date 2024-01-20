@@ -185,7 +185,7 @@ const projects = [
     title: "LWL",
     alt: "LWL image",
     skills:
-      "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
+      "JavaScript, SCSS, Bootstrap, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
       "Media queries, Relative units, Semantic layout",
     srcImageSmall: LWLSmall,
     srcImageSmallWebp: LWLSmallWebp,
@@ -198,7 +198,7 @@ const projects = [
     title: "Dectris",
     alt: "Dectris image",
     skills:
-      "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
+      "JavaScript, SCSS, Bootstrap, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
       "Media queries, Relative units, Semantic layout",
     srcImageSmall: dectrisSmall,
     srcImageSmallWebp: dectrisSmallWebp,
@@ -211,7 +211,7 @@ const projects = [
     title: "Kendris",
     alt: "Kendris image",
     skills:
-      "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
+      "JavaScript, SCSS, Bootstrap, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
       "Media queries, Relative units, Semantic layout",
     srcImageSmall: kendrisSmall,
     srcImageSmallWebp: kendrisSmallWebp,
@@ -224,7 +224,7 @@ const projects = [
     title: "Sherpany",
     alt: "Sherpany image",
     skills:
-      "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
+      "JavaScript, SCSS, Bootstrap, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
       "Media queries, Relative units, Semantic layout",
     srcImageSmall: sherpanySmall,
     srcImageSmallWebp: sherpanySmallWebp,
@@ -237,7 +237,7 @@ const projects = [
     title: "CFA",
     alt: "CFA image",
     skills:
-      "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
+      "JavaScript, SCSS, Bootstrap, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
       "Media queries, Relative units, Semantic layout",
     srcImageSmall: CFASmall,
     srcImageSmallWebp: CFASmallWebp,
@@ -250,7 +250,7 @@ const projects = [
     title: "DjangoCMS",
     alt: "DjangoCMS image",
     skills:
-      "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
+      "JavaScript, SCSS, Bootstrap, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
       "Media queries, Relative units, Semantic layout",
     srcImageSmall: djangoCMSSmall,
     srcImageSmallWebp: djangoCMSSmallWebp,
@@ -263,7 +263,7 @@ const projects = [
     title: "APG|SGA",
     alt: "APG|SGA image",
     skills:
-      "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
+      "JavaScript, SCSS, Bootstrap, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
       "Media queries, Relative units, Semantic layout",
     srcImageSmall: APGSGASmall,
     srcImageSmallWebp: APGSGASmallWebp,
@@ -276,7 +276,7 @@ const projects = [
     title: "SPR",
     alt: "SPR image",
     skills:
-      "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
+      "JavaScript, SCSS, Bootstrap, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
       "Media queries, Relative units, Semantic layout",
     srcImageSmall: SPRSmall,
     srcImageSmallWebp: SPRSmallWebp,
@@ -289,7 +289,7 @@ const projects = [
     title: "UBS",
     alt: "UBS image",
     skills:
-      "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
+      "JavaScript, SCSS, Bootstrap, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
       "Media queries, Relative units, Semantic layout",
     srcImageSmall: UBSSmall,
     srcImageSmallWebp: UBSSmallWebp,
@@ -302,7 +302,7 @@ const projects = [
     title: "Vertec",
     alt: "Vertec image",
     skills:
-      "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
+      "JavaScript, SCSS, Bootstrap, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
       "Media queries, Relative units, Semantic layout",
     srcImageSmall: vertecSmall,
     srcImageSmallWebp: vertecSmallWebp,
