@@ -13,7 +13,7 @@ const Certificate = ({
 }) => {
   return (
     <li className="certificate-item">
-      <NavLink to={url}>
+      <NavLink to={url} target="_blank" rel="noreferrer">
         <CertificateImgNextGen
           className={"certificate-item__img"}
           srcWebp={srcWebp}
