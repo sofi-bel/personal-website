@@ -76,7 +76,9 @@ const projects = [
     id: 18,
     title: "Momentum",
     alt: "Momentum image",
-    skills: "React, TypeScript, SASS, Vercel, GitLab, Responsive Web Design",
+    skills:
+      "React, TypeScript, SASS, HTML, Chakra UI, GitLab, NPM, Gitlab, Wepbpack,  " +
+      "Vercel, Responsive Web Design",
     srcImageSmall: momentumSmall,
     srcImageSmallWebp: momentumSmallWebp,
     srcImageBig: momentumBig,
@@ -87,7 +89,9 @@ const projects = [
     id: 17,
     title: "Momentum portal",
     alt: "Momentum portal image",
-    skills: "React, TypeScript, SASS, Vercel, GitLab, Responsive Web Design",
+    skills:
+      "React, TypeScript, SASS, HTML, Chakra UI, GitLab, NPM, Gitlab, Wepbpack,  " +
+      "Vercel, Responsive Web Design",
     srcImageSmall: momentumPortalSmall,
     srcImageSmallWebp: momentumPortalSmallWebp,
     srcImageBig: momentumPortalBig,
@@ -98,7 +102,9 @@ const projects = [
     id: 16,
     title: "One Tree Planted",
     alt: "One Tree Planted image",
-    skills: "...",
+    skills:
+      "React, TypeScript, SASS, HTML, GitLab, NPM, Gitlab, Wepbpack,  " +
+      "Vercel, Responsive Web Design",
     srcImageSmall: oneTreePlantedSmall,
     srcImageSmallWebp: oneTreePlantedSmallWebp,
     srcImageBig: oneTreePlantedBig,
@@ -110,7 +116,9 @@ const projects = [
     id: 15,
     title: "Mesto",
     alt: "Mesto image",
-    skills: "...",
+    skills:
+      "JavaScript, SCSS, Pug, GitHub, Yarn, Wepbpack, BEM, Responsive Web Design, Mobile first, " +
+      "Media queries, Web accessibility, Relative units, Semantic layout",
     srcImageSmall: mestoSmall,
     srcImageSmallWebp: mestoSmallWebp,
     srcImageBig: mestoBig,
@@ -122,7 +130,9 @@ const projects = [
     id: 14,
     title: "Russian Travel",
     alt: "Russian Travel image",
-    skills: "...",
+    skills:
+      "SCSS, Pug, GitHub, Yarn, Wepbpack, BEM, Responsive Web Design, Mobile first, " +
+      "Media queries, Web accessibility, Relative units, Semantic layout",
     srcImageSmall: russianTravelSmall,
     srcImageSmallWebp: russianTravelSmallWebp,
     srcImageBig: russianTravelBig,
@@ -134,7 +144,9 @@ const projects = [
     id: 13,
     title: "How to learn",
     alt: "How to learn image",
-    skills: "...",
+    skills:
+      "SCSS, Pug, GitHub, Yarn, Wepbpack, BEM, Responsive Web Design, Mobile first, " +
+      "Media queries, Web accessibility, Relative units, Semantic layout",
     srcImageSmall: howToLearnSmall,
     srcImageSmallWebp: howToLearnSmallWebp,
     srcImageBig: howToLearnBig,
@@ -146,7 +158,9 @@ const projects = [
     id: 12,
     title: "EA Hub profiles",
     alt: "EA Hub profiles image",
-    skills: "...",
+    skills:
+      "JavaScript, SCSS, HTML, GitHub, NPM, Wepbpack, Responsive Web Design, Mobile first, " +
+      "Media queries, Relative units, Semantic layout",
     srcImageSmall: eahubSmall,
     srcImageSmallWebp: eahubSmallWebp,
     srcImageBig: eahubBig,
@@ -157,7 +171,9 @@ const projects = [
     id: 11,
     title: "Agilery",
     alt: "Agilery image",
-    skills: "...",
+    skills:
+      "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
+      "Media queries, Relative units, Semantic layout",
     srcImageSmall: agilerySmall,
     srcImageSmallWebp: agilerySmallWebp,
     srcImageBig: agileryBig,
@@ -168,7 +184,9 @@ const projects = [
     id: 10,
     title: "LWL",
     alt: "LWL image",
-    skills: "...",
+    skills:
+      "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
+      "Media queries, Relative units, Semantic layout",
     srcImageSmall: LWLSmall,
     srcImageSmallWebp: LWLSmallWebp,
     srcImageBig: LWLBig,
@@ -179,7 +197,9 @@ const projects = [
     id: 9,
     title: "Dectris",
     alt: "Dectris image",
-    skills: "...",
+    skills:
+      "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
+      "Media queries, Relative units, Semantic layout",
     srcImageSmall: dectrisSmall,
     srcImageSmallWebp: dectrisSmallWebp,
     srcImageBig: dectrisBig,
@@ -190,7 +210,9 @@ const projects = [
     id: 8,
     title: "Kendris",
     alt: "Kendris image",
-    skills: "...",
+    skills:
+      "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
+      "Media queries, Relative units, Semantic layout",
     srcImageSmall: kendrisSmall,
     srcImageSmallWebp: kendrisSmallWebp,
     srcImageBig: kendrisBig,
@@ -201,7 +223,9 @@ const projects = [
     id: 7,
     title: "Sherpany",
     alt: "Sherpany image",
-    skills: "...",
+    skills:
+      "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
+      "Media queries, Relative units, Semantic layout",
     srcImageSmall: sherpanySmall,
     srcImageSmallWebp: sherpanySmallWebp,
     srcImageBig: sherpanyBig,
@@ -212,7 +236,9 @@ const projects = [
     id: 6,
     title: "CFA",
     alt: "CFA image",
-    skills: "...",
+    skills:
+      "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
+      "Media queries, Relative units, Semantic layout",
     srcImageSmall: CFASmall,
     srcImageSmallWebp: CFASmallWebp,
     srcImageBig: CFABig,
@@ -223,7 +249,9 @@ const projects = [
     id: 5,
     title: "DjangoCMS",
     alt: "DjangoCMS image",
-    skills: "...",
+    skills:
+      "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
+      "Media queries, Relative units, Semantic layout",
     srcImageSmall: djangoCMSSmall,
     srcImageSmallWebp: djangoCMSSmallWebp,
     srcImageBig: djangoCMSBig,
@@ -234,7 +262,9 @@ const projects = [
     id: 4,
     title: "APG|SGA",
     alt: "APG|SGA image",
-    skills: "...",
+    skills:
+      "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
+      "Media queries, Relative units, Semantic layout",
     srcImageSmall: APGSGASmall,
     srcImageSmallWebp: APGSGASmallWebp,
     srcImageBig: APGSGABig,
@@ -245,7 +275,9 @@ const projects = [
     id: 3,
     title: "SPR",
     alt: "SPR image",
-    skills: "...",
+    skills:
+      "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
+      "Media queries, Relative units, Semantic layout",
     srcImageSmall: SPRSmall,
     srcImageSmallWebp: SPRSmallWebp,
     srcImageBig: SPRBig,
@@ -256,7 +288,9 @@ const projects = [
     id: 2,
     title: "UBS",
     alt: "UBS image",
-    skills: "...",
+    skills:
+      "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
+      "Media queries, Relative units, Semantic layout",
     srcImageSmall: UBSSmall,
     srcImageSmallWebp: UBSSmallWebp,
     srcImageBig: UBSBig,
@@ -267,7 +301,9 @@ const projects = [
     id: 1,
     title: "Vertec",
     alt: "Vertec image",
-    skills: "...",
+    skills:
+      "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
+      "Media queries, Relative units, Semantic layout",
     srcImageSmall: vertecSmall,
     srcImageSmallWebp: vertecSmallWebp,
     srcImageBig: vertecBig,
