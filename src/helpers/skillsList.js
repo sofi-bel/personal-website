@@ -37,54 +37,58 @@ const skills = [
   },
   {
     id: 10,
-    text: "NPM",
+    text: "BEM",
   },
   {
     id: 11,
-    text: "Yarn",
+    text: "NPM",
   },
   {
     id: 12,
-    text: "Gitlab",
+    text: "Yarn",
   },
   {
     id: 13,
-    text: "GitHub",
+    text: "Gitlab",
   },
   {
     id: 14,
-    text: "Wepbpack",
+    text: "GitHub",
   },
   {
     id: 15,
-    text: "Vite",
+    text: "Wepbpack",
   },
   {
     id: 16,
-    text: "Vercel",
+    text: "Vite",
   },
   {
     id: 17,
-    text: "Netlify",
+    text: "Vercel",
   },
   {
     id: 18,
-    text: "Bootstrap",
+    text: "Netlify",
   },
   {
     id: 19,
-    text: "ESlint",
+    text: "Bootstrap",
   },
   {
     id: 20,
-    text: "Prettier",
+    text: "ESlint",
   },
   {
     id: 21,
-    text: "Stylelint",
+    text: "Prettier",
   },
   {
     id: 22,
+    text: "Stylelint",
+  },
+  {
+    id: 23,
     text: "Docker",
   },
 ];
