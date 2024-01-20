@@ -3,7 +3,7 @@
 
 .social {
   display: flex;
-  column-gap: 1.875rem;
+  gap: $grid-gutter-width;
   align-items: center;
 
   &__item {

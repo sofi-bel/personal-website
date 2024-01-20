@@ -3,43 +3,41 @@
 
 .project {
   &-list {
-    margin-bottom: 2rem;
-
     &__wrap {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      column-gap: 1.875rem;
-      row-gap: 3.75rem;
+      column-gap: $grid-gutter-width;
+      row-gap: $grid-gutter-width * 2;
+      margin-bottom: map.get($spacers, 4) * 2;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
+
+      @media (min-width: map.get($grid-breakpoints, lg)) {
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+      }
+
+      @media (min-width: map.get($grid-breakpoints, xl)) {
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      }
     }
 
     &__button {
-      margin-top: 3.75rem;
       align-self: center;
     }
   }
 
   &-item {
     position: relative;
-    max-width: 23.125rem;
     box-shadow: var(--box-shadow);
-
-    &__img {
-      .image {
-        @media (min-width: 25rem) {
-          width: 23.125rem;
-          height: 13rem;
-        }
-      }
-    }
+    object-fit: cover;
+    height: 100%;
+    max-height: fit-content;
 
     &__title {
       position: absolute;
-      left: 0.938rem;
-      right: 0.938rem;
-      bottom: -1.875rem;
+      left: map.get($spacers, 4);
+      right: map.get($spacers, 4);
+      bottom: -(map.get($spacers, 4));
       min-height: 3.75rem;
-      padding: 0.938rem;
+      padding: map.get($spacers, 3);
       background-color: var(--project-card-bg);
       box-shadow: var(--box-shadow);
       text-align: center;
@@ -49,34 +47,20 @@
 
   &-details {
     margin: 3.75rem auto;
-    max-width: 54.25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: $grid-gutter-width;
 
     &__cover {
       max-width: 100%;
-      margin-bottom: 2.5rem;
       box-shadow: var(--box-shadow);
-      border-radius: 0.625rem;
-    }
-
-    &__desc {
-      margin-bottom: 1.25rem;
-      font-size: 1.25rem;
-      font-weight: map.get($font-weight, "medium");
-      line-height: 1.3;
-
-      @media (min-width: map.get($grid-breakpoints, lg)) {
-        margin-bottom: 1.875rem;
-        font-size: 1.5rem;
-      }
     }
 
     &__btn-wrap {
       display: flex;
-      gap: 1.5rem;
+      gap: $grid-gutter-width;
       flex-wrap: wrap;
       justify-content: center;
     }

@@ -46,7 +46,7 @@ const HomePage = () => {
           <h2 className="section__title title title_size_xl title_accent">
             Education
           </h2>
-          <ul className="education-list">
+          <ul className="education-list__wrap">
             {education.map((item, index) => {
               return (
                 <Education

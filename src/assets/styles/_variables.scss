@@ -1,24 +1,94 @@
-$font-stack: "DM Sans", arial, sans-serif;
+@use "sass:map";
+$font-stack: "DM Sans", Arial, sans-serif;
+$font-size-base: 1rem;
+$font-size-sm: $font-size-base * 0.875;
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size,
+);
 $font-weight: (
   "normal": 400,
   "medium": 500,
   "bold": 700,
 );
-$container-max-widths: (
-  md: 80rem,
-  lg: 100rem,
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
 );
+
+$line-height-base: 1.5;
+$line-height-sm: 1.25;
+$headings-margin-bottom: $spacer * 0.5;
+
 $grid-breakpoints: (
   xs: 0,
   sm: 576px,
   md: 768px,
   lg: 992px,
-  xl: 1280px,
+  xl: 1200px,
   xxl: 1400px,
 );
-$cubic: cubic-bezier(0.4, 0.01, 0.165, 0.99);
+$grid-gutter-width: 1.5rem;
+
+$container-max-widths: (
+  sm: 33.75rem,
+  md: 45rem,
+  lg: 60rem,
+  xl: 71.25rem,
+  xxl: 82.5rem,
+  full: 100%,
+);
+$container-padding-x: $grid-gutter-width;
+
+$border-width: 1px;
+$border-widths: (
+  1: 1px,
+  2: 2px,
+  3: 3px,
+  4: 4px,
+  5: 5px,
+);
+$border-style: solid;
+$border-radius: 0.375rem;
+
+$btn-padding-x: 0.75rem;
+$btn-padding-y: 0.375rem;
+$btn-height: 3rem;
+$btn-width: 12rem;
+
+$opacities: (
+  0: 0,
+  25: 0.25,
+  50: 0.5,
+  75: 0.75,
+  100: 1,
+);
+
+$transition-base: all 0.2s ease-in-out;
+$transition-fade: opacity 0.15s linear;
+
+$zindex-fixed: 1030;
+$navbar-height: 5.625rem;
 
 :root {
+  font-size: $font-size-sm;
+  line-height: $line-height-sm;
   --blackpure: #000;
   --black: #171718;
   --black-border: #26292d;
@@ -34,6 +104,11 @@ $cubic: cubic-bezier(0.4, 0.01, 0.165, 0.99);
   --page-bg: var(--white);
   --project-card-bg: var(--white);
   --project-card-text: var(--black);
-  --box-shadow: 0 0 0.938rem rgba(0, 0, 0, 0.12);
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   --title-accent: var(--accent);
+
+  @media (min-width: map.get($grid-breakpoints, md)) {
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+  }
 }

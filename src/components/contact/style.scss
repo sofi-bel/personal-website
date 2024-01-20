@@ -3,14 +3,9 @@
 
 .contact-list {
   margin: 0 auto;
-  max-width: 35.625rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  row-gap: 2.5rem;
+  gap: $grid-gutter-width;
   text-align: center;
-
-  &__item {
-    line-height: 1.5;
-  }
 }

@@ -11,7 +11,9 @@ const Education = ({ school, degree, startDate, endDate, fieldOfStudy }) => {
         className="education__icon icon"
       />
       <div className="education__body">
-        <h3 className="education__position">{`${degree} of ${fieldOfStudy}`}</h3>
+        <h3 className="education__position title title_size_md">
+          {`${degree} of ${fieldOfStudy}`}
+        </h3>
         <span className="education__date">{`${startDate} - ${endDate}`}</span>
         <p className="education__school">{school}</p>
       </div>

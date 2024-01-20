@@ -51,7 +51,10 @@ const Navbar = () => {
         <strong>Sofi Bel</strong> portfolio
       </NavLink>
       <BtnDarkMode />
-      <ul className={`navbar__nav nav ${isOpen ? "active" : ""}`} ref={menuRef}>
+      <ul
+        className={`navbar__nav nav ${isOpen ? "active" : "inactive"}`}
+        ref={menuRef}
+      >
         {navs.map((nav) => {
           return <Nav key={nav.id} path={nav.path} text={nav.text} />;
         })}

@@ -3,17 +3,15 @@
 
 .btn {
   display: flex;
-  gap: 1rem;
   align-items: center;
   justify-content: center;
-  height: 3rem;
-  min-width: 12.25rem;
-  padding: 0.75rem 1.75rem;
-  border-radius: 0.313rem;
-  letter-spacing: 0.009rem;
-  font-size: 1rem;
+  gap: $grid-gutter-width;
+  height: $btn-height;
+  min-width: $btn-width;
+  padding: $btn-padding-y $btn-padding-x;
+  border-radius: $border-radius;
   font-weight: map.get($font-weight, "medium");
-  transition: opacity 0.2s ease-in;
+  transition: $transition-fade;
 
   &_theme {
     &_primary {
@@ -21,14 +19,14 @@
       color: var(--white);
 
       &:hover {
-        opacity: 0.8;
+        opacity: map.get($opacities, 75);
       }
     }
 
     &_outline {
       background-color: var(--white);
       color: var(--black);
-      border: 0.063rem solid var(--black);
+      border: $border-width $border-style var(--black);
     }
   }
 }
