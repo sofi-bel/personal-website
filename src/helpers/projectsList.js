@@ -70,14 +70,32 @@ import vertecSmall from "../assets/images/projects/vertecSmall.png";
 import vertecSmallWebp from "../assets/images/projects/vertecSmall.webp";
 import vertecBig from "../assets/images/projects/vertecBig.png";
 import vertecBigWebp from "../assets/images/projects/vertecBig.webp";
+import bangkokExpressSmall from "../assets/images/projects/bangkokExpressSmall.png";
+import bangkokExpressSmallWebp from "../assets/images/projects/bangkokExpressSmall.webp";
+import bangkokExpressBig from "../assets/images/projects/bangkokExpressBig.png";
+import bangkokExpressBigWebp from "../assets/images/projects/bangkokExpressBig.webp";
 
 const projects = [
+  {
+    id: 19,
+    title: "Bangkok Express",
+    alt: "Bangkok Express image",
+    skills:
+      "JavaScript, SASS, HTML, GitHub, NPM, Vite,  " +
+      "Netlify, Responsive Web Design",
+    srcImageSmall: bangkokExpressSmall,
+    srcImageSmallWebp: bangkokExpressSmallWebp,
+    srcImageBig: bangkokExpressBig,
+    srcImageBigWebp: bangkokExpressBigWebp,
+    gitHubLink: "https://github.com/sofi-bel/online-restaurant",
+    webLink: "https://bangkok-express.netlify.app/",
+  },
   {
     id: 18,
     title: "Momentum",
     alt: "Momentum image",
     skills:
-      "React, TypeScript, SASS, HTML, Chakra UI, GitLab, NPM, Gitlab, Wepbpack,  " +
+      "React, TypeScript, SASS, HTML, Chakra UI, GitLab, NPM, Wepbpack,  " +
       "Vercel, Responsive Web Design",
     srcImageSmall: momentumSmall,
     srcImageSmallWebp: momentumSmallWebp,
@@ -90,7 +108,7 @@ const projects = [
     title: "Momentum portal",
     alt: "Momentum portal image",
     skills:
-      "React, TypeScript, SASS, HTML, Chakra UI, GitLab, NPM, Gitlab, Wepbpack,  " +
+      "React, TypeScript, SASS, HTML, Chakra UI, GitLab, NPM, Wepbpack,  " +
       "Vercel, Responsive Web Design",
     srcImageSmall: momentumPortalSmall,
     srcImageSmallWebp: momentumPortalSmallWebp,
@@ -103,7 +121,7 @@ const projects = [
     title: "One Tree Planted",
     alt: "One Tree Planted image",
     skills:
-      "React, TypeScript, SASS, HTML, GitLab, NPM, Gitlab, Wepbpack,  " +
+      "React, TypeScript, SASS, HTML, GitLab, NPM, Wepbpack,  " +
       "Vercel, Responsive Web Design",
     srcImageSmall: oneTreePlantedSmall,
     srcImageSmallWebp: oneTreePlantedSmallWebp,
