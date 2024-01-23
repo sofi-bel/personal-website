@@ -22,8 +22,24 @@ import fundamentalJSS from "../assets/images/certifications/fundamentalJavaScrip
 import fundamentalJSL from "../assets/images/certifications/fundamentalJavaScriptBig.png";
 import fundamentalJSSWebp from "../assets/images/certifications/fundamentalJavaScriptSmall.webp";
 import fundamentalJSLWebp from "../assets/images/certifications/fundamentalJavaScriptBig.webp";
+import jsBaseS from "../assets/images/certifications/jsBaseSmall.png";
+import jsBaseL from "../assets/images/certifications/jsBaseBig.png";
+import jsBaseSWebp from "../assets/images/certifications/jsBaseSmall.webp";
+import jsBaseLWebp from "../assets/images/certifications/jsBaseBig.webp";
 
 const certificates = [
+  {
+    id: 7,
+    title: "JavaScript/DOM/Interfaces course",
+    alt: "JavaScript/DOM/Interfaces course certificate",
+    organization: "learn.javascript.ru",
+    issueDate: new Date(2024, 1),
+    srcImageSmall: jsBaseS,
+    srcImageSmallWebp: jsBaseSWebp,
+    srcImageBig: jsBaseL,
+    srcImageBigWebp: jsBaseLWebp,
+    url: "https://learn.javascript.ru/courses/jsbasic-20231211/sofi-bel/en/certificate.jpg",
+  },
   {
     id: 6,
     title: "Fundamental JavaScript",
