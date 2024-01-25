@@ -56,6 +56,10 @@
     color: var(--light-grey);
   }
 
+  &__company-name {
+    line-height: 1;
+  }
+
   &__link {
     width: 100%;
   }
