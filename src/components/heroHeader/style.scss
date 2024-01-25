@@ -28,7 +28,7 @@
     color: var(--header-text);
 
     &_typing {
-      width: 24ch;
+      width: 18ch;
       margin: auto;
       overflow: hidden;
       font-size: map.get($font-sizes, 5);
@@ -36,7 +36,7 @@
       white-space: nowrap;
       border-right: map.get($border-widths, 3) $border-style orange;
       animation:
-        typing-text 5s steps(24),
+        typing-text 5s steps(18),
         flashing-border 0.75s step-start infinite;
 
       @media (min-width: map.get($grid-breakpoints, lg)) {
