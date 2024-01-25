@@ -31,7 +31,6 @@ const Experience = ({
           <h3 className="experience__company-name title title_mb_none title_size_md">
             {companyName}
           </h3>
-          <span className="experience__employment-type">{employmentType}</span>
           <NavLink
             className="experience__link link"
             to={url}
@@ -41,9 +40,12 @@ const Experience = ({
             {domain}
           </NavLink>
         </div>
-        <h3 className="experience__title title title_mb_none title_size_md">
-          {title}
-        </h3>
+        <div className="experience__position">
+          <h3 className="experience__title title title_mb_none title_size_sm">
+            {title}
+          </h3>
+          <span className="experience__employment-type title_size_sm">{`(${employmentType})`}</span>
+        </div>
         <ul className="experience__description">
           {description.map((item, index) => {
             return (
