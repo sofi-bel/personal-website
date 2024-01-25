@@ -14,8 +14,10 @@ const Education = ({ school, degree, startDate, endDate, fieldOfStudy }) => {
         <h3 className="education__position title title_size_md">
           {`${degree} of ${fieldOfStudy}`}
         </h3>
-        <span className="education__date">{`${startDate} - ${endDate}`}</span>
-        <p className="education__school">{school}</p>
+        <div className="education__bottom">
+          <span className="education__date">{`${startDate} - ${endDate}`}</span>
+          <p className="education__school">{school}</p>
+        </div>
       </div>
     </li>
   );

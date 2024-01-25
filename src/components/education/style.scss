@@ -58,6 +58,11 @@
     }
   }
 
+  &__bottom {
+    display: flex;
+    flex-direction: column;
+  }
+
   &__date {
     color: var(--title-accent);
   }
