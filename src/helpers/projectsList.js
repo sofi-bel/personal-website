@@ -74,8 +74,26 @@ import bangkokExpressSmall from "../assets/images/projects/bangkokExpressSmall.p
 import bangkokExpressSmallWebp from "../assets/images/projects/bangkokExpressSmall.webp";
 import bangkokExpressBig from "../assets/images/projects/bangkokExpressBig.png";
 import bangkokExpressBigWebp from "../assets/images/projects/bangkokExpressBig.webp";
+import personalWebsiteSmall from "../assets/images/projects/personalWebsiteSmall.png";
+import personalWebsiteSmallWebp from "../assets/images/projects/personalWebsiteSmall.webp";
+import personalWebsiteBig from "../assets/images/projects/personalWebsiteBig.png";
+import personalWebsiteBigWebp from "../assets/images/projects/personalWebsiteBig.webp";
 
 const projects = [
+  {
+    id: 20,
+    title: "Personal website",
+    alt: "Personal website image",
+    skills:
+      "React, JavaScript, SASS, HTML, GitHub, NPM, Vite,  " +
+      "Netlify, Responsive Web Design",
+    srcImageSmall: personalWebsiteSmall,
+    srcImageSmallWebp: personalWebsiteSmallWebp,
+    srcImageBig: personalWebsiteBig,
+    srcImageBigWebp: personalWebsiteBigWebp,
+    gitHubLink: "https://github.com/sofi-bel/personal-website",
+    webLink: "https://sofi-bel.netlify.app/",
+  },
   {
     id: 19,
     title: "Bangkok Express",
