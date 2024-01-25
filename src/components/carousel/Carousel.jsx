@@ -60,11 +60,17 @@ const Carousel = () => {
                 <source
                   srcSet={`${item.srcImageWebp} 240w`}
                   type="image/webp"
+                  sizes="(min-width: 780px) 120px, 105px"
                 />
-                <source srcSet={`${item.srcImage} 240w`} type="image/png" />
+                <source
+                  srcSet={`${item.srcImage} 240w`}
+                  type="image/png"
+                  sizes="(min-width: 780px) 120px, 105px"
+                />
                 <img
                   className="slide__avatar"
                   srcSet={`${item.srcImage} 240w`}
+                  sizes="(min-width: 780px) 120px, 105px"
                   src={item.srcImage}
                   alt={item.alt}
                 />

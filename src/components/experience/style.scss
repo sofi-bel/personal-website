@@ -67,7 +67,8 @@
   &__position {
     display: flex;
     align-items: baseline;
-    gap: math.div($grid-gutter-width, 2);
+    column-gap: math.div($grid-gutter-width, 2);
+    flex-wrap: wrap;
   }
 
   &__description {

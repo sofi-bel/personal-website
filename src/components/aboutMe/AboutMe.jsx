@@ -10,16 +10,19 @@ const AboutMe = () => {
         return (
           <picture key={index} className="about-me__aside-content">
             <source
-              srcSet={`${item.srcImageSmallWebp} 580w, ${item.srcImageBigWebp} 1024w`}
+              srcSet={`${item.srcImageSmallWebp} 408w, ${item.srcImageBigWebp} 816w`}
               type="image/webp"
+              sizes="(min-width: 1400px) 420px, (min-width: 580px) 30.25vw, calc(100vw - 42px)"
             />
             <source
-              srcSet={`${item.srcImageSmall} 580w, ${item.srcImageBig} 1024w`}
+              srcSet={`${item.srcImageSmall} 408w, ${item.srcImageBig} 816w`}
               type="image/png"
+              sizes="(min-width: 1400px) 420px, (min-width: 580px) 30.25vw, calc(100vw - 42px)"
             />
             <img
               className="about-me__img"
-              srcSet={`${item.srcImageSmall} 580w, ${item.srcImageBig} 1024w`}
+              srcSet={`${item.srcImageSmall} 408w, ${item.srcImageBig} 816w`}
+              sizes="(min-width: 1400px) 420px, (min-width: 580px) 30.25vw, calc(100vw - 42px)"
               src={`${item.srcImageBig}`}
               alt={`${item.imageAlt}`}
             />

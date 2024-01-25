@@ -13,29 +13,29 @@ const CertificateImgNextGen = ({
       <source
         srcSet={`${srcWebp} 580w, ${srcBigWebp} 1024w`}
         type="image/webp"
-        sizes="(min-width: 1720px) 512px,
-        (min-width: 1280px) calc(25.24vw + 83px),
-        (min-width: 1000px) calc(13.46vw + 342px),
-        (min-width: 920px) calc(33.33vw - 21px),
-        (min-width: 620px) calc(50vw - 23px), 96.67vw"
+        sizes="(min-width: 1460px) 408px,
+        (min-width: 1200px) calc(16.67vw + 168px),
+        (min-width: 1000px) calc(20.56vw + 258px),
+        (min-width: 920px) calc(15vw + 148px),
+        (min-width: 560px) calc(48.53vw - 23px), calc(100vw - 42px)"
       />
       <source
         srcSet={`${srcWebp} 580w, ${srcBigWebp} 1024w`}
         type="image/png"
-        sizes="(min-width: 1720px) 512px,
-        (min-width: 1280px) calc(25.24vw + 83px),
-        (min-width: 1000px) calc(13.46vw + 342px),
-        (min-width: 920px) calc(33.33vw - 21px),
-        (min-width: 620px) calc(50vw - 23px), 96.67vw"
+        sizes="(min-width: 1460px) 408px,
+        (min-width: 1200px) calc(16.67vw + 168px),
+        (min-width: 1000px) calc(20.56vw + 258px),
+        (min-width: 920px) calc(15vw + 148px),
+        (min-width: 560px) calc(48.53vw - 23px), calc(100vw - 42px)"
       />
       <img
         className="certificate-img"
         srcSet={`${srcImage} 580w, ${srcBigImage} 1024w`}
-        sizes="(min-width: 1720px) 512px,
-        (min-width: 1280px) calc(25.24vw + 83px),
-        (min-width: 1000px) calc(13.46vw + 342px),
-        (min-width: 920px) calc(33.33vw - 21px),
-        (min-width: 620px) calc(50vw - 23px), 96.67vw"
+        sizes="(min-width: 1460px) 408px,
+        (min-width: 1200px) calc(16.67vw + 168px),
+        (min-width: 1000px) calc(20.56vw + 258px),
+        (min-width: 920px) calc(15vw + 148px),
+        (min-width: 560px) calc(48.53vw - 23px), calc(100vw - 42px)"
         src={srcBigImage}
         alt={alt}
       />
