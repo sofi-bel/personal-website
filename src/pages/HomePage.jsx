@@ -6,6 +6,7 @@ import Education from "../components/education/Education.jsx";
 import Experience from "../components/experience/Experience.jsx";
 import Project from "../components/project/Project.jsx";
 import Certificate from "../components/certificate/Certificate.jsx";
+import Carousel from "../components/carousel/Carousel.jsx";
 import { skills } from "../helpers/skillsList";
 import { experience } from "../helpers/experienceList";
 import { education } from "../helpers/educationList";
@@ -140,7 +141,7 @@ const HomePage = () => {
           <h2 className="section__title title title_size_xl title_accent">
             References
           </h2>
-          <p className="text text_centered">content will be here soon</p>
+          <Carousel />
         </div>
       </section>
     </main>
