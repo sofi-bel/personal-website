@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import HeroHeader from "../components/heroHeader/HeroHeader.jsx";
+import AboutMe from "../components/aboutMe/AboutMe.jsx";
 import Skill from "../components/skill/Skill.jsx";
 import Education from "../components/education/Education.jsx";
 import Experience from "../components/experience/Experience.jsx";
@@ -20,7 +21,7 @@ const HomePage = () => {
           <h2 className="section__title title title_size_xl title_accent">
             About Me
           </h2>
-          <p className="text text_centered">content will be here soon</p>
+          <AboutMe />
         </div>
       </section>
       <section className="skills section">

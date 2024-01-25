@@ -1,0 +1,52 @@
+@use "sass:map";
+@use "sass:math";
+@import "../../assets/styles/variables";
+
+.about-me {
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: $grid-gutter-width;
+
+    @media (min-width: map.get($grid-breakpoints, md)) {
+      flex-direction: row-reverse;
+    }
+  }
+
+  &__aside-content {
+    @media (min-width: map.get($grid-breakpoints, md)) {
+      min-width: 33%;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+  }
+
+  &__main-content {
+    display: flex;
+    flex-direction: column;
+    gap: $grid-gutter-width;
+  }
+
+  &__description {
+    line-height: 1.75;
+  }
+
+  &__contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: math.div($grid-gutter-width, 2);
+
+    .contact-list__item {
+      display: flex;
+      gap: $grid-gutter-width;
+
+      & .title {
+        font-size: map.get($font-sizes, 5);
+        min-width: 5rem;
+      }
+    }
+  }
+}
