@@ -15,8 +15,9 @@ const HeroHeader = () => {
           Frontend Developer
         </h2>
         <Btn
-          link="https://hh.ru/resume/3c29fb55ff0bdfe6c30039ed1f534445353343"
+          link="../../assets/files/Sofi_Bel_CV.pdf"
           text="Download CV"
+          type="file"
         />
       </div>
     </header>

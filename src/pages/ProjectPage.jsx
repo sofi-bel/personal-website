@@ -30,7 +30,9 @@ const ProjectPage = () => {
           <div className="project-details__btn-wrap">
             {project.gitHubLink && <BtnGitHub link={project.gitHubLink} />}
 
-            {project.webLink && <Btn link={project.webLink} text="Website" />}
+            {project.webLink && (
+              <Btn link={project.webLink} text="Website" type="external" />
+            )}
           </div>
         </div>
       </div>
