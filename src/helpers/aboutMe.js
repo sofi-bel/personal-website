@@ -12,12 +12,14 @@ const aboutMe = [
     srcImageBigWebp: SofiBelLWebp,
     imageAlt: "Sofi Bel image",
     description:
-      "Experienced Frontend Developer skilled in web development, creating and maintaining " +
-      "websites, and contributing to user-centric interfaces. Proficient in HTML, CSS, " +
-      "JavaScript, React.js, and experienced in implementing Figma-based layouts with" +
-      "cross-browser compatibility and a mobile-first approach. Committed to ongoing learning " +
-      "and currently pursuing a Master's in Software Engineering, complementing a Bachelor's " +
-      "in Informatics and Computer Engineering.",
+      "Frontend developer with over 3 years of experience in web development. My " +
+      "responsibilities include creating, supporting, and testing websites, as well " +
+      "as developing user interfaces with a focus on cross-browser and mobile" +
+      " compatibility (mobile-first approach). I possess skills in HTML, Pug," +
+      " CSS, SASS/SCSS, JavaScript (ES6+), TypeScript, React, React-Router," +
+      " and React Hooks. My unique advantage lies in my continuous pursuit of " +
+      "learning and improvement.  Additionally, I am proactive and adept at planning " +
+      "my own activities to achieve maximum results.",
   },
 ];
 
