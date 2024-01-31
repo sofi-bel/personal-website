@@ -72,9 +72,14 @@
   }
 
   &__description {
+    display: flex;
+    flex-direction: column;
+    gap: math.div($grid-gutter-width, 3);
+
     &-item {
       list-style-type: disc;
       list-style-position: inside;
+      line-height: 1.5;
 
       &::marker {
         color: var(--accent);
