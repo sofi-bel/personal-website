@@ -9,86 +9,98 @@ const skills = [
   },
   {
     id: 3,
-    text: "JavaScript",
+    text: "JavaScript (ES6+)",
   },
   {
     id: 4,
-    text: "React",
-  },
-  {
-    id: 5,
     text: "TypeScript",
   },
   {
+    id: 5,
+    text: "React",
+  },
+  {
     id: 6,
-    text: "Handlebars",
+    text: "React Router",
   },
   {
     id: 7,
-    text: "Pug",
+    text: "React Hooks",
   },
   {
     id: 8,
-    text: "SASS/SCSS",
+    text: "Handlebars",
   },
   {
     id: 9,
-    text: "PostCSS",
+    text: "Pug",
   },
   {
     id: 10,
-    text: "BEM",
+    text: "SASS/SCSS",
   },
   {
     id: 11,
-    text: "NPM",
+    text: "PostCSS",
   },
   {
     id: 12,
-    text: "Yarn",
+    text: "BEM",
   },
   {
     id: 13,
-    text: "Gitlab",
+    text: "NPM",
   },
   {
     id: 14,
-    text: "GitHub",
+    text: "Yarn",
   },
   {
     id: 15,
-    text: "Wepbpack",
+    text: "Git",
   },
   {
     id: 16,
-    text: "Vite",
+    text: "Gitlab",
   },
   {
     id: 17,
-    text: "Vercel",
+    text: "GitHub",
   },
   {
     id: 18,
-    text: "Netlify",
+    text: "Wepbpack",
   },
   {
     id: 19,
-    text: "Bootstrap",
+    text: "Vite",
   },
   {
     id: 20,
-    text: "ESlint",
+    text: "Vercel",
   },
   {
     id: 21,
-    text: "Prettier",
+    text: "Netlify",
   },
   {
     id: 22,
-    text: "Stylelint",
+    text: "Bootstrap",
   },
   {
     id: 23,
+    text: "ESlint",
+  },
+  {
+    id: 24,
+    text: "Prettier",
+  },
+  {
+    id: 25,
+    text: "Stylelint",
+  },
+  {
+    id: 26,
     text: "Docker",
   },
 ];
