@@ -6,7 +6,7 @@ const HeroHeader = () => {
     <header className="hero-header">
       <div className="hero-header__wrapper">
         <h1 className="hero-header__title title title_size_xxl">
-          Hi,&nbsp;I&apos;m&nbsp;Sofi&nbsp;Bel.
+          Hi,&nbsp;I&apos;m&nbsp;Sofi.
         </h1>
         <h2
           className="
