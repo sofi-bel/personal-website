@@ -79,7 +79,9 @@ const Carousel = () => {
               <div className="slide__bottom">
                 <p className="slide__author">{item.author}</p>
                 <p className="slide__position">
-                  {`${item.position} at ${item.companyName}`}
+                  {item.companyName
+                    ? `${item.position} at ${item.companyName}`
+                    : item.position}
                 </p>
               </div>
             </div>
