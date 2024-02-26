@@ -29,78 +29,82 @@ const skills = [
   },
   {
     id: 8,
-    text: "Handlebars",
+    text: "Redux",
   },
   {
     id: 9,
-    text: "Pug",
+    text: "Handlebars",
   },
   {
     id: 10,
-    text: "SASS/SCSS",
+    text: "Pug",
   },
   {
     id: 11,
-    text: "PostCSS",
+    text: "SASS/SCSS",
   },
   {
     id: 12,
-    text: "BEM",
+    text: "PostCSS",
   },
   {
     id: 13,
-    text: "NPM",
+    text: "BEM",
   },
   {
     id: 14,
-    text: "Yarn",
+    text: "NPM",
   },
   {
     id: 15,
-    text: "Git",
+    text: "Yarn",
   },
   {
     id: 16,
-    text: "Gitlab",
+    text: "Git",
   },
   {
     id: 17,
-    text: "GitHub",
+    text: "Gitlab",
   },
   {
     id: 18,
-    text: "Wepbpack",
+    text: "GitHub",
   },
   {
     id: 19,
-    text: "Vite",
+    text: "Webpack",
   },
   {
     id: 20,
-    text: "Vercel",
+    text: "Vite",
   },
   {
     id: 21,
-    text: "Netlify",
+    text: "Vercel",
   },
   {
     id: 22,
-    text: "Bootstrap",
+    text: "Netlify",
   },
   {
     id: 23,
-    text: "ESlint",
+    text: "Bootstrap",
   },
   {
     id: 24,
-    text: "Prettier",
+    text: "ESlint",
   },
   {
     id: 25,
-    text: "Stylelint",
+    text: "Prettier",
   },
   {
     id: 26,
+    text: "Stylelint",
+  },
+  {
+    id: 27,
     text: "Docker",
   },
 ];
