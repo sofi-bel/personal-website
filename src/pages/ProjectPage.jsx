@@ -22,7 +22,7 @@ const ProjectPage = () => {
             srcBigWebp={project.srcImageBigWebp}
             srcBigImage={project.srcImageBig}
             alt={project.alt}
-            preload="true"
+            preload={project.index > 0}
           />
           <div className="project-details__desc">
             <p>Skills: {project.skills}</p>
