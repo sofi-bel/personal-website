@@ -12,12 +12,7 @@ const Footer = () => {
           <ul className="social">
             {socialMedia.map((social) => {
               return (
-                <Social
-                  key={social.id}
-                  link={social.link}
-                  img={social.img}
-                  imgAlt={social.imgAlt}
-                />
+                <Social key={social.id} link={social.link} type={social.type} />
               );
             })}
           </ul>

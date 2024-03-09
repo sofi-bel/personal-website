@@ -1,11 +1,11 @@
 import PropTypes from "prop-types";
-import gitHubIcon from "../../assets/images/icons/gitHubIconBlack.svg";
+import GitHubIcon from "../../assets/images/icons/gitHubIconBlack.svg?react";
 
 const BtnGitHub = ({ link }) => {
   return (
     <a href={link} target="_blank" rel="noreferrer">
       <button className="btn btn_theme_outline">
-        <img src={gitHubIcon} alt="gitHub icon" />
+        <GitHubIcon />
         <p>GitHub repo</p>
       </button>
     </a>

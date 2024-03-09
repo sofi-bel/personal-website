@@ -1,15 +1,11 @@
 import PropTypes from "prop-types";
 import "./style.scss";
-import graduationCap from "../../assets/images/icons/graduationCapIcon.svg";
+import GraduationCap from "../../assets/images/icons/graduationCapIcon.svg?react";
 
 const Education = ({ school, degree, startDate, endDate, fieldOfStudy }) => {
   return (
     <li className="education-list__item">
-      <img
-        src={graduationCap}
-        alt="graduation cap icon"
-        className="education__icon icon"
-      />
+      <GraduationCap className="education__icon icon" />
       <div className="education__body">
         <h3 className="education__position title title_size_md">
           {`${degree} of ${fieldOfStudy}`}

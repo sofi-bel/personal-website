@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import { useLocalStorage } from "../../utils/useLocalStorage";
 import detectDarkMode from "../../utils/detectDarkMode";
-import sunIcon from "../../assets/images/icons/sunIcon.svg";
-import moonIcon from "../../assets/images/icons/moonIcon.svg";
+import SunIcon from "../../assets/images/icons/sunIcon.svg?react";
+import MoonIcon from "../../assets/images/icons/moonIcon.svg?react";
 import "./style.scss";
 
 const BtnDarkMode = () => {
@@ -39,8 +39,8 @@ const BtnDarkMode = () => {
       className={darkMode === "dark" ? btnActive : btnNormal}
       onClick={toggleDarkMode}
     >
-      <img src={sunIcon} alt="Light mode" className="dark-mode-btn__icon" />
-      <img src={moonIcon} alt="Dark mode" className="dark-mode-btn__icon" />
+      <SunIcon className="dark-mode-btn__icon" />
+      <MoonIcon className="dark-mode-btn__icon" />
     </button>
   );
 };

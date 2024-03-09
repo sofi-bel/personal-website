@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 import { resolve } from "path";
 import react from "@vitejs/plugin-react";
+import svgr from "vite-plugin-svgr";
 
 export default defineConfig({
   root: resolve(__dirname, "src/"),
@@ -18,7 +19,7 @@ export default defineConfig({
     minifyIdentifiers: false,
     keepNames: true,
   },
-  plugins: [react()],
+  plugins: [react(), svgr()],
   server: {
     port: 3000,
     strictPort: true,

@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { references } from "../../helpers/referencesList.js";
-import angleIcon from "../../assets/images/icons/angleIcon.svg";
-import angleLeftIcon from "../../assets/images/icons/angleLeftIcon.svg";
+import AngleIcon from "../../assets/images/icons/angleIcon.svg?react";
+import AngleLeftIcon from "../../assets/images/icons/angleLeftIcon.svg?react";
 import "./style.scss";
 
 const Carousel = () => {
@@ -43,10 +43,10 @@ const Carousel = () => {
   return (
     <div className="carousel">
       <div className="carousel__arrow carousel__arrow_right" onClick={next}>
-        <img src={angleIcon} alt="icon" />
+        <AngleIcon className="carousel__arrow-icon" />
       </div>
       <div className="carousel__arrow carousel__arrow_left" onClick={prev}>
-        <img src={angleLeftIcon} alt="icon" />
+        <AngleLeftIcon className="carousel__arrow-icon" />
       </div>
       <div className="carousel__inner">
         {references.map((item) => {
