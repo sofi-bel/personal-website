@@ -19,8 +19,8 @@ const contacts = [
   {
     id: 4,
     title: "Telegram",
-    linkText: "sofi_13_bel",
-    link: "https://t.me/sofi_13_bel",
+    linkText: "sofi_bel2301",
+    link: "https://t.me/sofi_bel2301",
   },
 ];
 
