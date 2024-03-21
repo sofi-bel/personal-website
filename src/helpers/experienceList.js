@@ -1,6 +1,6 @@
 const experience = [
   {
-    id: 6,
+    id: 4,
     title: "Frontend Developer",
     employmentType: "Freelance",
     companyName: "Momentum",
@@ -20,24 +20,7 @@ const experience = [
     ],
   },
   {
-    id: 5,
-    title: "Frontend Developer",
-    employmentType: "Apprenticeship",
-    companyName: "Practicum Yandex",
-    url: "https://practicum.yandex.ru/",
-    locationType: "Remote",
-    startDate: new Date(2021, 10),
-    endDate: new Date(2022, 1),
-    description: [
-      "Implemented three landing pages using CSS, HTML, and JavaScript.",
-      "Applied web development skills to create interactive and engaging user interfaces.",
-      "Implemented website layouts based on Figma designs.",
-      "Tested and ensured website compatibility across various browsers and devices.",
-      "Cross-browser responsive web development, with a mobile-first approach.",
-    ],
-  },
-  {
-    id: 4,
+    id: 3,
     title: "Frontend Developer",
     employmentType: "Full-time",
     companyName: "SMART WORLD",
@@ -58,7 +41,7 @@ const experience = [
     ],
   },
   {
-    id: 3,
+    id: 2,
     title: "Frontend Developer",
     employmentType: "Freelance",
     companyName: "what. AG",
@@ -78,7 +61,7 @@ const experience = [
     ],
   },
   {
-    id: 2,
+    id: 1,
     title: "Frontend Developer",
     employmentType: "Volunteering",
     companyName: "Effective Altruism",
@@ -89,23 +72,6 @@ const experience = [
     description: [
       "Refactored the profile page using CSS, HTML, and JavaScript.",
       "Improved the design and UX.",
-      "Implemented website layouts based on Figma designs.",
-      "Tested and ensured website compatibility across various browsers and devices.",
-      "Cross-browser responsive web development, with a mobile-first approach.",
-    ],
-  },
-  {
-    id: 1,
-    title: "Frontend Developer",
-    employmentType: "Internship",
-    companyName: "MetaLamp",
-    url: "https://metalamp.ru/",
-    locationType: "Hybrid",
-    startDate: new Date(2018, 3),
-    endDate: new Date(2019, 1),
-    description: [
-      "Successful implementation of three projects, including a UI kit, a 2D game, " +
-        "and a landing page website.",
       "Implemented website layouts based on Figma designs.",
       "Tested and ensured website compatibility across various browsers and devices.",
       "Cross-browser responsive web development, with a mobile-first approach.",
