@@ -5,7 +5,7 @@ const education = [
     degree: "Master",
     fieldOfStudy: "Software Engineering",
     startDate: 2022,
-    endDate: "Present",
+    endDate: 2024,
   },
   {
     id: 1,
