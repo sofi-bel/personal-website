@@ -26,8 +26,24 @@ import jsBaseS from "../assets/images/certifications/jsBaseSmall.jpg";
 import jsBaseL from "../assets/images/certifications/jsBaseBig.jpg";
 import jsBaseSWebp from "../assets/images/certifications/jsBaseSmall.webp";
 import jsBaseLWebp from "../assets/images/certifications/jsBaseBig.webp";
+import phpFirstS from "../assets/images/certifications/phpFirstSmall.jpg";
+import phpFirstL from "../assets/images/certifications/phpFirstBig.jpg";
+import phpFirstSWebp from "../assets/images/certifications/phpFirstSmall.webp";
+import phpFirstLWebp from "../assets/images/certifications/phpFirstBig.webp";
 
 const certificates = [
+  {
+    id: 8,
+    title: "PHP-first acquaintance",
+    alt: "PHP-first acquaintance certificate",
+    organization: "Stepik",
+    issueDate: new Date(2024, 6),
+    srcImageSmall: phpFirstS,
+    srcImageSmallWebp: phpFirstSWebp,
+    srcImageBig: phpFirstL,
+    srcImageBigWebp: phpFirstLWebp,
+    url: "https://stepik.org/cert/2514438?lang=en",
+  },
   {
     id: 7,
     title: "JavaScript/DOM/Interfaces course",
