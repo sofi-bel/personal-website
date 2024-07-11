@@ -21,7 +21,7 @@ const CertificateImgNextGen = ({
       />
       <source
         srcSet={`${srcWebp} 580w, ${srcBigWebp} 1024w`}
-        type="image/png"
+        type="image/jpg"
         sizes="(min-width: 1460px) 408px,
         (min-width: 1200px) calc(16.67vw + 168px),
         (min-width: 1000px) calc(20.56vw + 258px),

@@ -26,7 +26,7 @@ const ImgNextGen = ({
               <source
                 rel="preload"
                 srcSet={`${srcImage} 740w, ${srcBigImage} 1736w`}
-                type="image/png"
+                type="image/jpg"
                 sizes="(min-width: 980px) 868px,
                   (min-width: 780px) calc(65.56vw + 239px),
                   (min-width: 440px) 370px, calc(83.33vw + 20px)"
@@ -44,7 +44,7 @@ const ImgNextGen = ({
               />
               <source
                 srcSet={`${srcImage} 740w, ${srcBigImage} 1736w`}
-                type="image/png"
+                type="image/jpg"
                 sizes="(min-width: 980px) 868px,
                   (min-width: 780px) calc(65.56vw + 239px),
                   (min-width: 440px) 370px, calc(83.33vw + 20px)"
@@ -61,7 +61,7 @@ const ImgNextGen = ({
       {!srcBigImage && (
         <>
           <source srcSet={srcWebp} type="image/webp" />
-          <source srcSet={srcImage} type="image/png" />
+          <source srcSet={srcImage} type="image/jpg" />
           {preload && (
             <img rel="preload" className="image" src={srcImage} alt={alt} />
           )}

@@ -64,7 +64,7 @@ const Carousel = () => {
                 />
                 <source
                   srcSet={`${item.srcImage} 240w`}
-                  type="image/png"
+                  type="image/jpg"
                   sizes="(min-width: 780px) 120px, 105px"
                 />
                 <img

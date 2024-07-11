@@ -16,7 +16,7 @@ const AboutMe = () => {
             />
             <source
               srcSet={`${item.srcImageSmall} 408w, ${item.srcImageBig} 816w`}
-              type="image/png"
+              type="image/jpg"
               sizes="(min-width: 1400px) 420px, (min-width: 580px) 30.25vw, calc(100vw - 42px)"
             />
             <img
