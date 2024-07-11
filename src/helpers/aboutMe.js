@@ -1,5 +1,5 @@
-import SofiBelS from "../assets/images/SofiBelS.png";
-import SofiBelL from "../assets/images/SofiBelL.png";
+import SofiBelS from "../assets/images/SofiBelS.jpg";
+import SofiBelL from "../assets/images/SofiBelL.jpg";
 import SofiBelSWebp from "../assets/images/SofiBelS.webp";
 import SofiBelLWebp from "../assets/images/SofiBelL.webp";
 

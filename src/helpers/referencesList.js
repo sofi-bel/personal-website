@@ -1,5 +1,5 @@
-import sergeiGordeichukImg from "../assets/images/references/SergeiGordeichuk.png";
-import sergeyFedusImg from "../assets/images/references/SergeyFedus.png";
+import sergeiGordeichukImg from "../assets/images/references/SergeiGordeichuk.jpg";
+import sergeyFedusImg from "../assets/images/references/SergeyFedus.jpg";
 import sergeiGordeichukWebp from "../assets/images/references/SergeiGordeichuk.webp";
 import sergeyFedusWebp from "../assets/images/references/SergeyFedus.webp";
 
