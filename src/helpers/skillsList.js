@@ -41,7 +41,7 @@ const skills = [
   },
   {
     id: 11,
-    text: "SASS/SCSS",
+    text: "SASS",
   },
   {
     id: 12,
@@ -105,7 +105,7 @@ const skills = [
   },
   {
     id: 27,
-    text: "Docker",
+    text: "GraphQL",
   },
 ];
 
