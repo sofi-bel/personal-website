@@ -30,14 +30,30 @@ import phpFirstS from "../assets/images/certifications/phpFirstSmall.jpg";
 import phpFirstL from "../assets/images/certifications/phpFirstBig.jpg";
 import phpFirstSWebp from "../assets/images/certifications/phpFirstSmall.webp";
 import phpFirstLWebp from "../assets/images/certifications/phpFirstBig.webp";
+import layoutDesignerS from "../assets/images/certifications/layoutDesignerSmall.jpg";
+import layoutDesignerL from "../assets/images/certifications/layoutDesignerBig.jpg";
+import layoutDesignerSWebp from "../assets/images/certifications/layoutDesignerSmall.webp";
+import layoutDesignerLWebp from "../assets/images/certifications/layoutDesignerBig.webp";
 
 const certificates = [
+  {
+    id: 9,
+    title: "Competence Layout Designer - HTML, CSS, JavaScript",
+    alt: "Competence Layout Designer - HTML, CSS, JavaScript certificate",
+    organization: "Stepik",
+    issueDate: new Date(2024, 9),
+    srcImageSmall: layoutDesignerS,
+    srcImageSmallWebp: layoutDesignerSWebp,
+    srcImageBig: layoutDesignerL,
+    srcImageBigWebp: layoutDesignerLWebp,
+    url: "https://stepik.org/certificate/dd53befb0a1d7d12c800ee662aa8e5dd170fd86b.pdf?language=en",
+  },
   {
     id: 8,
     title: "PHP-first acquaintance",
     alt: "PHP-first acquaintance certificate",
     organization: "Stepik",
-    issueDate: new Date(2024, 6),
+    issueDate: new Date(2024, 7),
     srcImageSmall: phpFirstS,
     srcImageSmallWebp: phpFirstSWebp,
     srcImageBig: phpFirstL,
