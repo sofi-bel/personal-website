@@ -1,9 +1,27 @@
 import sergeiGordeichukImg from "../assets/images/references/SergeiGordeichuk.jpg";
-import sergeyFedusImg from "../assets/images/references/SergeyFedus.jpg";
 import sergeiGordeichukWebp from "../assets/images/references/SergeiGordeichuk.webp";
+import sergeyFedusImg from "../assets/images/references/SergeyFedus.jpg";
 import sergeyFedusWebp from "../assets/images/references/SergeyFedus.webp";
+import markusAmaltheaMagnusonImg from "../assets/images/references/MarkusAmaltheaMagnuson.jpg";
+import markusAmaltheaMagnusonWebp from "../assets/images/references/MarkusAmaltheaMagnuson.webp";
 
 const references = [
+  {
+    id: 3,
+    author: "Markus Amalthea Magnuson",
+    position: "Co-founder/CTO @ Momentum",
+    srcImage: markusAmaltheaMagnusonImg,
+    srcImageWebp: markusAmaltheaMagnusonWebp,
+    alt: "Markus Amalthea Magnuson photo",
+    description:
+      "Sofi worked on our front-end code (React/Next.js) as a contractor and was an incredibly" + 
+      "reliable collaborator who added a great amount of value to our users through large and" + 
+      "small contributions. On top of being a diligent engineer with a curious mindset, Sofi" +
+      "is also proactive in finding and reporting bugs, asking good questions on code architecture," + 
+      "and testing functionality from an end-user perspective. Sofi was also a very well-liked" + 
+      "member of the team, and she communicated clearly about the work with all departments." + 
+      "I highly recommend Sofi as a front-end engineer – you are lucky to have her.",
+  },
   {
     id: 2,
     author: "Sergey Fedus",
