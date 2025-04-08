@@ -34,8 +34,24 @@ import layoutDesignerS from "../assets/images/certifications/layoutDesignerSmall
 import layoutDesignerL from "../assets/images/certifications/layoutDesignerBig.jpg";
 import layoutDesignerSWebp from "../assets/images/certifications/layoutDesignerSmall.webp";
 import layoutDesignerLWebp from "../assets/images/certifications/layoutDesignerBig.webp";
+import reactForModernWebApplicationsS from "../assets/images/certifications/reactForModernWebApplicationsSmall.jpg";
+import reactForModernWebApplicationsL from "../assets/images/certifications/reactForModernWebApplicationsBig.jpg";
+import reactForModernWebApplicationsSWebp from "../assets/images/certifications/reactForModernWebApplicationsSmall.webp";
+import reactForModernWebApplicationsLWebp from "../assets/images/certifications/reactForModernWebApplicationsBig.webp";
 
 const certificates = [
+  {
+    id: 10,
+    title: "React for modern web applications",
+    alt: "React for modern web applications certificate",
+    organization: "Stepik",
+    issueDate: new Date(2025, 4),
+    srcImageSmall: reactForModernWebApplicationsS,
+    srcImageSmallWebp: reactForModernWebApplicationsSWebp,
+    srcImageBig: reactForModernWebApplicationsL,
+    srcImageBigWebp: reactForModernWebApplicationsLWebp,
+    url: "https://stepik.org/certificate/5611649310be9d3d78440599f96799b2c05db83c.pdf?language=en",
+  },
   {
     id: 9,
     title: "Competence Layout Designer - HTML, CSS, JavaScript",
