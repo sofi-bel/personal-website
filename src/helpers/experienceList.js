@@ -1,5 +1,37 @@
 const experience = [
   {
+    id: 6,
+    title: "Web Developer",
+    employmentType: "Staff member",
+    companyName: "Greenatom",
+    url: "https://greenatom.ru/",
+    locationType: "Remote",
+    startDate: new Date(2024, 7),
+    endDate: "Present",
+    description: [
+      "Developed and maintained corporate websites and internal services using Bitrix, PHP, JavaScript, SCSS, and HTML",
+      "Participated in the development of 3 corporate websites and 6 internal services",
+      "Implemented responsive and accessible UI components",
+    ],
+  },
+  {
+    id: 5,
+    title: "Frontend Developer",
+    employmentType: "Contract",
+    companyName: "Momentum",
+    url: "https://www.givemomentum.com/",
+    locationType: "Remote",
+    startDate: new Date(2024, 7),
+    endDate: new Date(2025, 2),
+    description: [
+      "Built user-facing features using React.js, TypeScript, React Hooks, and Chakra UI",
+      "Integrated with back-end services via GraphQL",
+      "Delivered both major features and small UX improvements",
+      "Proactively identified and reported bugs, tested functionality from an end-user perspective",
+      "Collaborated closely with designers, product managers, and engineers across teams",
+    ],
+  },
+  {
     id: 4,
     title: "Frontend Developer",
     employmentType: "Freelance",

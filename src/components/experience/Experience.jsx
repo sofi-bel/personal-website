@@ -18,11 +18,11 @@ const Experience = ({
     <li className="experience-list__item">
       <div className="experience__aside-content">
         <div className="experience__dates">
-          {`${startDate.getMonth().toString()}.${startDate
-            .getFullYear()
-            .toString()} - ${endDate.getMonth().toString()}.${endDate
-            .getFullYear()
-            .toString()}`}
+          {`${+startDate.getMonth()}.${startDate.getFullYear()} - ${
+            typeof endDate === 'string'
+            ? endDate
+            : `${+endDate.getMonth()}.${endDate.getFullYear()}`
+            }`}
         </div>
         <span className="experience__location-type">{locationType}</span>
       </div>
