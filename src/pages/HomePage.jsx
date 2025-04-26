@@ -94,6 +94,7 @@ const HomePage = () => {
               return (
                 <Project
                   key={project.id}
+                  slug={project.slug}
                   title={project.title}
                   alt={project.alt}
                   srcImage={project.srcImageSmall}

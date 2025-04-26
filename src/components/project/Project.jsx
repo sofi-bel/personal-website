@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 import "./style.scss";
 import ImgNextGen from "../imgNextGen/ImgNextGen.jsx";
 
-const Project = ({ title, alt, srcImage, srcWebp, index }) => {
+const Project = ({ slug, title, alt, srcImage, srcWebp, index}) => {
   return (
     <li className="project-item">
-      <NavLink to={`/project/${index}`}>
+      <NavLink to={`/project/${slug}`}>
         <ImgNextGen
           className={"project-item__img"}
           srcWebp={srcWebp}
@@ -30,6 +30,7 @@ const Project = ({ title, alt, srcImage, srcWebp, index }) => {
 };
 
 Project.propTypes = {
+  slug: PropTypes.string.isRequired,
   srcWebp: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,

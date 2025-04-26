@@ -14,6 +14,7 @@ const ProjectsPage = () => {
               return (
                 <Project
                   key={project.id}
+                  slug={project.slug}
                   title={project.title}
                   alt={project.alt}
                   srcWebp={project.srcImageSmallWebp}

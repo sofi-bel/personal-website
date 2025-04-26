@@ -83,6 +83,7 @@ const projects = [
   {
     id: 20,
     title: "Personal website",
+    slug: "personal-website",
     alt: "Personal website image",
     skills:
       "React, JavaScript, SASS, HTML, GitHub, NPM, Vite,  " +
@@ -97,6 +98,7 @@ const projects = [
   {
     id: 19,
     title: "Bangkok Express",
+    slug: "bangkok-express",
     alt: "Bangkok Express image",
     skills:
       "JavaScript, SASS, HTML, GitHub, NPM, Vite,  " +
@@ -111,6 +113,7 @@ const projects = [
   {
     id: 18,
     title: "Momentum",
+    slug: "momentum",
     alt: "Momentum image",
     skills:
       "React, TypeScript, SASS, HTML, Chakra UI, GitLab, NPM, Wepbpack,  " +
@@ -124,6 +127,7 @@ const projects = [
   {
     id: 17,
     title: "Momentum portal",
+    slug: "momentum-portal",
     alt: "Momentum portal image",
     skills:
       "React, TypeScript, SASS, HTML, Chakra UI, GitLab, NPM, Wepbpack,  " +
@@ -137,6 +141,7 @@ const projects = [
   {
     id: 16,
     title: "One Tree Planted",
+    slug: "one-tree-planted",
     alt: "One Tree Planted image",
     skills:
       "React, TypeScript, SASS, HTML, GitLab, NPM, Wepbpack,  " +
@@ -151,6 +156,7 @@ const projects = [
   {
     id: 15,
     title: "Mesto",
+    slug: "mesto",
     alt: "Mesto image",
     skills:
       "JavaScript, SCSS, Pug, GitHub, Yarn, Wepbpack, BEM, Responsive Web Design, Mobile first, " +
@@ -165,6 +171,7 @@ const projects = [
   {
     id: 14,
     title: "Russian Travel",
+    slug: "russian-travel",
     alt: "Russian Travel image",
     skills:
       "SCSS, Pug, GitHub, Yarn, Wepbpack, BEM, Responsive Web Design, Mobile first, " +
@@ -179,6 +186,7 @@ const projects = [
   {
     id: 13,
     title: "How to learn",
+    slug: "how-to-learn",
     alt: "How to learn image",
     skills:
       "SCSS, Pug, GitHub, Yarn, Wepbpack, BEM, Responsive Web Design, Mobile first, " +
@@ -193,6 +201,7 @@ const projects = [
   {
     id: 12,
     title: "EA Hub profiles",
+    slug: "ea-hub-profiles",
     alt: "EA Hub profiles image",
     skills:
       "JavaScript, SCSS, HTML, GitHub, NPM, Wepbpack, Responsive Web Design, Mobile first, " +
@@ -206,6 +215,7 @@ const projects = [
   {
     id: 11,
     title: "Agilery",
+    slug: "agilery",
     alt: "Agilery image",
     skills:
       "JavaScript, SCSS, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
@@ -219,6 +229,7 @@ const projects = [
   {
     id: 10,
     title: "LWL",
+    slug: "lwl",
     alt: "LWL image",
     skills:
       "JavaScript, SCSS, Bootstrap, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
@@ -232,6 +243,7 @@ const projects = [
   {
     id: 9,
     title: "Dectris",
+    slug: "dectris",
     alt: "Dectris image",
     skills:
       "JavaScript, SCSS, Bootstrap, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
@@ -245,6 +257,7 @@ const projects = [
   {
     id: 8,
     title: "Kendris",
+    slug: "kendris",
     alt: "Kendris image",
     skills:
       "JavaScript, SCSS, Bootstrap, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
@@ -258,6 +271,7 @@ const projects = [
   {
     id: 7,
     title: "Sherpany",
+    slug: "sherpany",
     alt: "Sherpany image",
     skills:
       "JavaScript, SCSS, Bootstrap, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
@@ -271,6 +285,7 @@ const projects = [
   {
     id: 6,
     title: "CFA",
+    slug: "cfa",
     alt: "CFA image",
     skills:
       "JavaScript, SCSS, Bootstrap, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
@@ -284,6 +299,7 @@ const projects = [
   {
     id: 5,
     title: "DjangoCMS",
+    slug: "djangocms",
     alt: "DjangoCMS image",
     skills:
       "JavaScript, SCSS, Bootstrap, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
@@ -297,6 +313,7 @@ const projects = [
   {
     id: 4,
     title: "APG|SGA",
+    slug: "apg-sga",
     alt: "APG|SGA image",
     skills:
       "JavaScript, SCSS, Bootstrap, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
@@ -310,6 +327,7 @@ const projects = [
   {
     id: 3,
     title: "SPR",
+    slug: "spr",
     alt: "SPR image",
     skills:
       "JavaScript, SCSS, Bootstrap, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
@@ -323,6 +341,7 @@ const projects = [
   {
     id: 2,
     title: "UBS",
+    slug: "ubs",
     alt: "UBS image",
     skills:
       "JavaScript, SCSS, Bootstrap, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +
@@ -336,6 +355,7 @@ const projects = [
   {
     id: 1,
     title: "Vertec",
+    slug: "vertec",
     alt: "Vertec image",
     skills:
       "JavaScript, SCSS, Bootstrap, HTML, GitLab, NPM, Responsive Web Design, Mobile first, " +

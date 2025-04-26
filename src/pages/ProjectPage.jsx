@@ -5,8 +5,8 @@ import { projects } from "../helpers/projectsList";
 import ImgNextGen from "../components/imgNextGen/ImgNextGen.jsx";
 
 const ProjectPage = () => {
-  const { id } = useParams();
-  const project = projects[id];
+  const { slug } = useParams();
+  const project = projects.find((el) => el.slug === slug);
 
   return (
     <main className="content">
