@@ -2,7 +2,7 @@ const contacts = [
   {
     id: 1,
     title: "Location",
-    text: "Saint Petersburg, Russia",
+    text: "Russia",
   },
   {
     id: 2,

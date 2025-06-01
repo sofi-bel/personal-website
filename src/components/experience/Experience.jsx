@@ -12,17 +12,25 @@ const Experience = ({
   endDate,
   description,
 }) => {
-  const domain = new URL(url).hostname;
+  let domain = null;
+
+  if (url) {
+    try {
+      domain = new URL(url).hostname;
+    } catch (e) {
+      console.warn("Invalid URL:", url);
+    }
+  }
 
   return (
     <li className="experience-list__item">
       <div className="experience__aside-content">
         <div className="experience__dates">
           {`${+startDate.getMonth()}.${startDate.getFullYear()} - ${
-            typeof endDate === 'string'
-            ? endDate
-            : `${+endDate.getMonth()}.${endDate.getFullYear()}`
-            }`}
+            typeof endDate === "string"
+              ? endDate
+              : `${+endDate.getMonth()}.${endDate.getFullYear()}`
+          }`}
         </div>
         <span className="experience__location-type">{locationType}</span>
       </div>
@@ -31,14 +39,16 @@ const Experience = ({
           <h3 className="experience__company-name title title_mb_none title_size_md">
             {companyName}
           </h3>
-          <NavLink
-            className="experience__link link"
-            to={url}
-            target="_blank"
-            rel="noreferrer"
-          >
-            {domain}
-          </NavLink>
+          {domain && (
+            <NavLink
+              className="experience__link link"
+              to={url}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {domain}
+            </NavLink>
+          )}
         </div>
         <div className="experience__position">
           <h3 className="experience__title title title_mb_none title_size_sm">
@@ -64,7 +74,7 @@ Experience.propTypes = {
   title: PropTypes.string.isRequired,
   employmentType: PropTypes.string.isRequired,
   companyName: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired,
+  url: PropTypes.string,
   locationType: PropTypes.string.isRequired,
   startDate: PropTypes.any.isRequired,
   endDate: PropTypes.any.isRequired,

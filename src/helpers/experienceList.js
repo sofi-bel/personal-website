@@ -1,5 +1,20 @@
 const experience = [
   {
+    id: 7,
+    title: "Frontend Developer",
+    employmentType: "Contract",
+    companyName: "Neuronhub",
+    url: null,
+    locationType: "Remote",
+    startDate: new Date(2025, 4),
+    endDate: "Present",
+    description: [
+        "Built user-facing features using React.js, TypeScript, React Hooks, and Chakra UI",
+        "Integrated with back-end services via GraphQL",
+        "Delivered both major features and small UX improvements",
+    ],
+  },
+  {
     id: 6,
     title: "Web Developer",
     employmentType: "Staff member",
@@ -7,7 +22,7 @@ const experience = [
     url: "https://greenatom.ru/",
     locationType: "Remote",
     startDate: new Date(2024, 7),
-    endDate: "Present",
+    endDate: new Date(2025, 4),
     description: [
       "Developed and maintained corporate websites and internal services using Bitrix, PHP, JavaScript, SCSS, and HTML",
       "Participated in the development of 3 corporate websites and 6 internal services",
