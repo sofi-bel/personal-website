@@ -2,9 +2,9 @@ const experience = [
   {
     id: 7,
     title: "Frontend Developer",
-    employmentType: "Contract",
-    companyName: "Neuronhub",
-    url: null,
+    employmentType: "Self-employed",
+    companyName: "Individual Entrepreneur Bel Sofi",
+    url: "https://sofi-bel.netlify.app/",
     locationType: "Remote",
     startDate: new Date(2025, 4),
     endDate: "Present",

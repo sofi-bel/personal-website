@@ -1,4 +1,4 @@
-import Btn from "../btn/Btn.jsx";
+// import Btn from "../btn/Btn.jsx";
 import "./style.scss";
 
 const HeroHeader = () => {
@@ -14,7 +14,7 @@ const HeroHeader = () => {
         >
           Frontend Developer
         </h2>
-        <Btn link="/Sofi_Bel_CV.pdf" text="Download CV" type="file" />
+        {/*<Btn link="/Sofi_Bel_CV.pdf" text="Download CV" type="file" />*/}
       </div>
     </header>
   );
